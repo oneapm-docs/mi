@@ -1,9 +1,9 @@
 # Summary
 
+* [快速入门](3gong_neng_shuo_ming.md)
 * [版本更新](README.md)
    * [Android](android.md)
    * [iOS](ios.md)
-* [快速入门](3gong_neng_shuo_ming.md)
 * [使用平台](shi_yong_ping_tai.md)
    * [Android](Sandroid.md)
    * [iOS](Sios.md)
