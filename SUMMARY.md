@@ -17,7 +17,7 @@
    * [Socket 监控](socket_jian_kong.md)
    * [UI性能-卡顿](uixing_80fd-_qia_dun.md)
 * [常见术语解释](6release_note.md)
-   * 系统
+   * [系统](xi_tong.md)
 * [常见问题](Release Note)
    * [Android](candroid.md)
    * [iOS](Cios.md)
