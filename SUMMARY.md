@@ -2,7 +2,7 @@
 
 * [版本更新](README.md)
    * [Android](android.md)
-   * iOS
+   * [iOS](ios.md)
 * [快速入门](3gong_neng_shuo_ming.md)
 * [功能说明](4chang_jian_zhu_yu_jie_shi.md)
 * [使用平台](5chang_jian_wen_ti.md)
