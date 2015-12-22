@@ -13,6 +13,7 @@
    * [应用](Gying_yong.md)
    * [分析](fen_xi.md)
    * [自定义仪表盘](zi_ding_yi_yi_biao_pan.md)
+   * ANR 数据抓取及展示
 * [常见术语解释](6release_note.md)
 * [常见问题](Release Note)
    * [Android](candroid.md)
