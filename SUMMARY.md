@@ -19,6 +19,7 @@
 * [常见术语解释](6release_note.md)
    * [系统](xi_tong.md)
    * [性能指标](xing_neng_zhi_biao.md)
+   * 图表
 * [常见问题](Release Note)
    * [Android](candroid.md)
    * [iOS](Cios.md)
