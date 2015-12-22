@@ -11,7 +11,7 @@
    * [崩溃](beng_kui.md)
    * [网络](wang_luo.md)
    * [应用](Gying_yong.md)
-       * 分析
+       * [分析](fen_xi.md)
 * [常见术语解释](6release_note.md)
 * [常见问题](Release Note)
    * [Android](candroid.md)
