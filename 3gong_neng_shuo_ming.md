@@ -1,2 +1,2 @@
-# 3.功能说明
+#开始使用 Mobile Insight
 
