@@ -2,5 +2,5 @@
 
 * [1.快速入门](README.md)
 * [2.适用平台](2shi_yong_ping_tai.md)
-* 3.功能说明
+* [3.功能说明](3gong_neng_shuo_ming.md)
 
