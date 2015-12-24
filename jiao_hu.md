@@ -9,4 +9,6 @@
 ![](interaction2.png)
 
 点击慢交互列表中的任意交互名，可查看其详情：
-![](interaction3.png)
+
+![](交互3.png)
+
