@@ -12,6 +12,7 @@
        * [交互](jiao_hu.md)
        * [ANR](anr.md)
    * [崩溃](beng_kui.md)
+   * 用户信息
    * [WebView](webview.md)
    * [网络](wang_luo.md)
    * [运营](yun_ying.md)
@@ -20,7 +21,6 @@
    * [ANR 数据抓取及展示](anr_shu_ju_zhua_qu_ji_zhan_shi.md)
    * [Socket 监控](socket_jian_kong.md)
    * [UI性能-卡顿](uixing_80fd-_qia_dun.md)
-   * 用户信息
 * [常见术语解释](6release_note.md)
    * [系统](xi_tong.md)
    * [性能指标](xing_neng_zhi_biao.md)
