@@ -9,7 +9,7 @@
    * [iOS](Sios.md)
 * [功能说明](4chang_jian_zhu_yu_jie_shi.md)
    * [应用](Gying_yong.md)
-       * ANR
+       * [ANR](anr.md)
    * [崩溃](beng_kui.md)
    * [网络](wang_luo.md)
    * [运营](yun_ying.md)
