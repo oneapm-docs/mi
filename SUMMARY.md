@@ -7,6 +7,7 @@
 * [使用平台](shi_yong_ping_tai.md)
    * [Android](Sandroid.md)
    * [iOS](Sios.md)
+* [应用](Gying_yong.md)
 * [功能说明](4chang_jian_zhu_yu_jie_shi.md)
    * [崩溃](beng_kui.md)
    * [网络](wang_luo.md)
