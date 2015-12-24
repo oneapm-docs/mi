@@ -11,8 +11,8 @@
    * [崩溃](beng_kui.md)
    * [网络](wang_luo.md)
    * [应用](Gying_yong.md)
-   * [分析](fen_xi.md)
    * [运营](yun_ying.md)
+   * [分析](fen_xi.md)
    * [自定义仪表盘](zi_ding_yi_yi_biao_pan.md)
    * [ANR 数据抓取及展示](anr_shu_ju_zhua_qu_ji_zhan_shi.md)
    * [Socket 监控](socket_jian_kong.md)
@@ -24,6 +24,4 @@
 * [常见问题](Release Note)
    * [Android](candroid.md)
    * [iOS](Cios.md)
-       * [SDWebImage 造成的 crash 问题](sdwebimage_zao_cheng_de_crash_wen_ti.md)
-       * [Xcode 版本低于6.3，CPU 占用达到100%](xcode_ban_ben_di_yu_6__3__cpu_zhan_yong_da_dao_100.md)
 
