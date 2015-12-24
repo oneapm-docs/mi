@@ -12,7 +12,7 @@
        * [交互](jiao_hu.md)
        * [ANR](anr.md)
    * [崩溃](beng_kui.md)
-   * 用户信息
+   * [用户信息](yong_hu_xin_xi.md)
    * [WebView](webview.md)
    * [网络](wang_luo.md)
    * [运营](yun_ying.md)
