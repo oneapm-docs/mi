@@ -28,5 +28,5 @@
 * [常见问题](Release Note)
    * [Android](candroid.md)
    * [iOS](Cios.md)
-       * SDWebImage 造成的 crash 问题
+       * [SDWebImage 造成的 crash 问题](isdwebimage_zao_cheng_de_crash_wen_ti.md)
 
