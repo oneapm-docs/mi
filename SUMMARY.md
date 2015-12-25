@@ -29,5 +29,5 @@
    * [Android](candroid.md)
    * [iOS](Cios.md)
        * [SDWebImage 造成的 crash 问题](isdwebimage_zao_cheng_de_crash_wen_ti.md)
-       * Xcode 版本低于6.3，CPU 占用达到100%
+       * [Xcode 版本低于6.3，CPU 占用达到100%](ixcode_ban_ben_di_yu_6__3__cpu_zhan_yong_da_dao_100.md)
 
