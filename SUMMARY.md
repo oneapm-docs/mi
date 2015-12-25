@@ -28,4 +28,5 @@
 * [常见问题](Release Note)
    * [Android](candroid.md)
    * [iOS](Cios.md)
+       * SDWebImage 造成的 crash 问题
 
