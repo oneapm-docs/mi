@@ -3,6 +3,7 @@
 > 针对移动 App 的网络监控，Mobile Insight 主要有以下功能：
 * 拓扑
 * 请求
+* Socket
 * 错误
 
 ##1.  拓扑
@@ -26,7 +27,63 @@
 
 ![](04.png)
 
-## 3. 错误
+
+## 3. Socket
+「Socket请求」可以监控socket在发送过程中的各种问题。在java中socket有两个类可以实现socket的通讯功能,其一是socket,另一个就是socketChannel,目前可以支持java中两种socket的监控. 
+
+**具体操作：**把socket代码进行一些修改就可以记录数据，这样就可以直观了解socket在传输过程中的问题。
+
+### * Socket的监控*
+首先将socket功能提供一个包装类,然后可以实现数据收集.
+
+具体实现如下:
+
+``` 
+Socket socket = new Socket();
+SocketInstrumentation socketInstrumentation = new SocketInstrumentation();
+
+socketInstrumentation.connect(new InetSocketAddress("127.0.0.1",12345));
+//读取服务器端数据
+DataInputStream input = new DataInputStream(socketInstrumentation.getInputStream());
+//向服务器端发送数据
+DataOutputStream out = new DataOutputStream(socketInstrumentation.getOutputStream());
+
+...
+
+socketInstrumentation.close();
+```
+
+### * SocketChannel*
+具体实现如下:
+
+```
+SocketChannel socket = SocketChannel.open();
+SocketChannelInstrumentation socketChannelInstrumentation1 = new SocketChannelInstrumentation(socket);
+socketChannelInstrumentation1.connect(new InetSocketAddress("127.0.0.1", 12345));
+socketChannelInstrumentation1.read(readBuffer);
+socketChannelInstrumentation1.write(pendingData.get(0));
+
+...
+
+socketChannelInstrumentation1.finishConnect();
+```
+
+这样就可以进行操作了，socket监控程序能够正确的运行并收集您程序中存在的问题，可以直观展示：
+Read耗时趋势 Top 5，右上方鼠标悬停可以添加至仪表盘
+Write耗时趋势 Top 5，右上方鼠标悬停可以添加至仪表盘
+在耗时曲线上鼠标悬停可以看到某一天的耗时时间
+
+![](09.png)
+
+点击列表中任意无异常数据，查看详情：
+
+![](10.png)
+
+点击异常信息，查看详情：
+
+![](11.png)
+
+## 4. 错误
 「错误」功能展示的是在 App 上发生的 HTTP 错误和网络故障，该界面包含以下内容：
 * 错误统计列表：可以按照域名、状态码、故障类型三种方式对错误进行筛选排序。
 * HTTP 错误率 ：HTTP 错误率最高的五个域名。
