@@ -20,7 +20,6 @@
    * [设置](she_zhi.md)
    * [自定义仪表盘](zi_ding_yi_yi_biao_pan.md)
    * [ANR 数据抓取及展示](anr_shu_ju_zhua_qu_ji_zhan_shi.md)
-   * [Socket 监控](socket_jian_kong.md)
    * [UI性能-卡顿](uixing_80fd-_qia_dun.md)
 * [常见术语解释](6release_note.md)
    * [系统](xi_tong.md)
