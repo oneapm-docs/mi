@@ -62,11 +62,11 @@
 
 在默认 Activity 中 import BlueWare 类：
 
-import com.blueware.agent.android.BlueWare;
+```import com.blueware.agent.android.BlueWare;```
 
 在 onCreate() 方法中加入如下 call 来初始化 oneAPM（其中包含了在步骤 2 中根据应用程序名称而生成的授权编号）：
 
-BlueWare.withApplicationToken("<generate app token by creating a name above>").start(this.getApplication());
+```BlueWare.withApplicationToken("<generate app token by creating a name above>").start(this.getApplication());```
 
 8. 启动应用程序
 
