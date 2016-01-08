@@ -7,14 +7,11 @@
 
 **修复问题：**
 
-1.
-解决 Java u55、Java 8 的崩溃问题;
+1.解决 Java u55、Java 8 的崩溃问题;
 
-1.
-解决 SDK Instrument Gson 时候的崩溃问题;
+2.解决 SDK Instrument Gson 时候的崩溃问题;
 
-1.
-下载 OneAPM Android SDK 1.0.4;
+3.下载 OneAPM Android SDK 1.0.4;
 
 
     
