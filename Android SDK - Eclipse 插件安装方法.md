@@ -43,6 +43,7 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 * 第一步：在项目工程右键 Build Path Configure Build Path 将 oneapm-android-agent.jar 添加到系统的 Build Path 中；
 
+![Eclipse安装](Eclipse 安装方法6-1419579677.png)
 
 
 
