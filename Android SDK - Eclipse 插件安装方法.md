@@ -11,3 +11,7 @@
 
 * 第三步：添加 OneAPM Android 的 Eclipse 插件源
 
+Eclipse 4.4 之前的版本，请使用：
+
+```https://download.oneapm.com/android_agent/eclipse_lt_4.4/```
+
