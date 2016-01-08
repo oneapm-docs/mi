@@ -18,6 +18,8 @@
 
 ```classpath fileTree(dir: 'YourOneAPMPath/oneapm/plugin', include: ['*.jar'])```
 
+![Gradle安装](Gradle 安装方法2-1419580155.png)
+
 4.引入 OneAPM
 
 第一步：打开主模块目录下的 build.gradle 文件。
