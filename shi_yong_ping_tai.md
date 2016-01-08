@@ -39,7 +39,13 @@
 ```
 ## 3. 配置 Agent
 
+* 第一步：在应用的主 Activity 的 class 中，添加
 
+`import com.blueware.agent.android.BlueWare;`
+
+* 第二步：在 onCreate 方法中，添加
+
+`BlueWare.withApplicationToken("ApiKey").start(this.getApplication());`
 
 
 
