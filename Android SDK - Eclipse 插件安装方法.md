@@ -49,6 +49,8 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 `import com.blueware.agent.android.BlueWare;`
 
+* 第三步：在 onCreate 方法中，添加
+
 
 
 
