@@ -18,3 +18,8 @@
 
 ![Ant安装](ant_opts(03-20-10-21-34)-1426824126.png)
 
+其中 “/path/to/oneapm/”请用你实际存放 OneAPM 的 class.rewriter.jar 的路径替换。
+
+不要放在工程的 libs 目录中！
+
+* 方法二：在命令行中设置
