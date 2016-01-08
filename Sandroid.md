@@ -18,11 +18,13 @@ OneAPM Android SDK 会在用户 Java 代码编译期间检测用户用了哪些�
 
     第二步：复制 App token 的序列码，在接下来的步骤中使用。
     
+2. 下载并解压 OneAPM SDK
 
+3. 配置 Gradle
 
+    第一步：打开工程根目录下的 build.gradle 文件。
 
-
-
+    ![配置Gradle](Gradle 安装方法1-1419580143.png)
 
 
 
