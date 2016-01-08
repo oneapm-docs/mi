@@ -10,3 +10,5 @@
 
 **Mac OS / Linux 环境**
 
+`export ANT_OPTS="-javaagent:/path/to/oneapm/class.rewriter.jar"`
+
