@@ -55,6 +55,8 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 **注意**：APIKey 由 OneAPM 分发，每个应用对应一个唯一的 APIKey。
 
+## 4. 配置 App 权限
+
 
 
 
