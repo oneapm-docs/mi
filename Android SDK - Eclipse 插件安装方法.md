@@ -27,3 +27,4 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 **提示**：取消勾选 Contact all update during Install to find required software 会提高安装的速度；如果安装失败，重新勾选 Contact all update during Install to find required software，等待安装完成。
 
+## 2. 安装 Agent 到 Project
