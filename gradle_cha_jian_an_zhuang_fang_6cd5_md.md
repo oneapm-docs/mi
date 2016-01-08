@@ -28,7 +28,7 @@
 
 ```apply plugin: 'oneapm'```
 
-5. rebuild & clean 项目
+5.rebuild & clean 项目
 
 建议 rebuild & clean 项目，来确保 OneAPM 配置生效。
 6.  配置授权信息
