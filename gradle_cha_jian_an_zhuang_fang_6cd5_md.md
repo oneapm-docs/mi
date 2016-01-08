@@ -58,7 +58,7 @@
  -keepattributes Exceptions, Signature, InnerClasses
 ```
 
-7. 启动 Agent
+7.启动 Agent
 
 在默认 Activity 中 import BlueWare 类：
 
@@ -68,10 +68,11 @@
 
 ```BlueWare.withApplicationToken("<generate app token by creating a name above>").start(this.getApplication());```
 
-8. 启动应用程序
+8.启动应用程序
 
 clean project，并重新在模拟器或设备中启动应用程序，开始应用性能管理。
-9. 静候 5 分钟，开启 OneAPM 之旅
+
+9.静候 5 分钟，开启 OneAPM 之旅
 
 静候 5 分钟，等待应用程序向 OneAPM 发送应用程序性能数据，即可开始使用 OneAPM 应用性能管理。
 
