@@ -17,7 +17,7 @@
 
 ```classpath fileTree(dir: 'YourOneAPMPath/oneapm/plugin', include: ['*.jar'])```
 
-4. 引入 OneAPM
+4.引入 OneAPM
 
     第一步：打开主模块目录下的 build.gradle 文件。
 
