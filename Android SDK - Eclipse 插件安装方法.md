@@ -39,6 +39,8 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 **注意**：查看 Android 工程的 libs 目录中，是否有 oneapm-android-agent.jar 文件，如果没有请刷新 libs 目录。
 
+## 3. 配置 Agent
+
 
 
 
