@@ -80,6 +80,8 @@ clean project，并重新在模拟器或设备中启动应用程序，开始应�
 
 您可以采取以下方式解决问题：
 
-    技术支持热线：400-622-3101
+* 
+技术支持热线：400-622-3101
 
-    OneAPM 客服邮箱：support@oneapm.com
+*     
+OneAPM 客服邮箱：support@oneapm.com
