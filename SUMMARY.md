@@ -8,6 +8,7 @@
    * [Android](Sandroid.md)
        * [Gradle 插件安装方法](gradle_cha_jian_an_zhuang_fang_6cd5_md.md)
        * [Eclipse 插件安装方法](Eclipse 插件安装方法.md)
+       * Ant 安装方法
    * [iOS](Sios.md)
 * [功能说明](4chang_jian_zhu_yu_jie_shi.md)
    * [应用](Gying_yong.md)
