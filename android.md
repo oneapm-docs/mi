@@ -1,6 +1,30 @@
 # Android
 
+## OneAPM Android SDK 1.0.8
 
+**发布日期：**2015/5/26
+
+**增加功能：**
+
+1.Eclipse 插件更新，支持 Eclipse 4.4 及之后的版本。
+
+修复问题：
+
+    本地没有 ssl 的环境下无法发送 crash 信息；
+
+    在 crash 没发送成功并且积累比较多的时候启动黑屏的 bug；
+
+    Reinstall OneAPM 的时候，没有更新到最新版本；
+
+    Agent 安装过程中，license 信息需要更新；
+
+    在手机没有 sim 卡的时候获取手机设备信息会有异常，造成数据收集异常；
+
+    在特定情况下无法上传数据；
+
+    Agent 的信息需要与用户系统保持一致；
+
+    WebView 自定义 webviewClient 的时候发生 Crash。
 
 ## OneAPM Android SDK 1.0.7
 
