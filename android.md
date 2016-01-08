@@ -18,13 +18,13 @@
 
 6.优化网络请求 trace 数据中 HTTP Request/Response Header 信息的采集。默认设置为不采集，付费用户可设置开启该功能。
 
-修复问题：
+**修复问题：**
 
-    交互 trace 详情中显示联网信息、地理位置、电量、CPU、Root 信息。
+1.交互 trace 详情中显示联网信息、地理位置、电量、CPU、Root 信息。
 
-备注：
+**备注：**
 
-    启用 WebView 功能需要配置对应的 WebView JavaScript 文件，具体操作请参考文档：WebView 性能监控使用说明。
+启用 WebView 功能需要配置对应的 WebView JavaScript 文件，具体操作请参考文档：WebView 性能监控使用说明。
 
 ## OneAPM Android SDK 2.0.1
 
