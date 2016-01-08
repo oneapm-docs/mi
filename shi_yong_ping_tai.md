@@ -12,3 +12,5 @@
 
 `export ANT_OPTS="-javaagent:/path/to/oneapm/class.rewriter.jar"`
 
+**Windows 环境**
+
