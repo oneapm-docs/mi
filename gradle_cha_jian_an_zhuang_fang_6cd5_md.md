@@ -12,7 +12,7 @@
 
     第一步：打开工程根目录下的 build.gradle 文件。
     
-    ![](Gradle 安装方法1-1419580143.png)
+    ![Gradle安装](Gradle 安装方法1-1419580143.png)
 
     第二步：在 dependencies 模块中加入代码。
 
