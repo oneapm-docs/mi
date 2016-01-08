@@ -30,6 +30,10 @@ OneAPM Android SDK 会在用户 Java 代码编译期间检测用户用了哪些�
 
 ```classpath fileTree(dir: 'YourOneAPMPath/oneapm/plugin', include: ['*.jar'])```
 
+    ![配置Gradle](Gradle 安装方法2-1419580155.png)
+
+4. 引入 OneAPM
+
 
 
 
