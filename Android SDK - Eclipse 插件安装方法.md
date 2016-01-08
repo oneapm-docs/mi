@@ -1,4 +1,4 @@
-# Android SDK - Eclipse 插件安装方法
+# Eclipse 插件安装方法
 
 ## 1. 安装 SDK
 
