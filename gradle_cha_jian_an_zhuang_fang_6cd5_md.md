@@ -18,15 +18,15 @@
 
 4.引入 OneAPM
 
-    第一步：打开主模块目录下的 build.gradle 文件。
+第一步：打开主模块目录下的 build.gradle 文件。
 
-    第二步：在 dependencies 模块中加入代码。
+第二步：在 dependencies 模块中加入代码。
 
-    compile fileTree(dir:'YourOneAPMPath/oneapm/agent',include:['*.jar'])
+```compile fileTree(dir:'YourOneAPMPath/oneapm/agent',include:['*.jar'])```
 
-    第三步：在文件头部引入 OneAPM。
+第三步：在文件头部引入 OneAPM。
 
-    apply plugin: 'oneapm'
+```apply plugin: 'oneapm'```
 
 5. rebuild & clean 项目
 
