@@ -1,5 +1,25 @@
 # Android
 
+## OneAPM Android SDK 2.0.4(Beta)
+
+**发布日期：**2015/11/26
+
+**优化功能：**
+
+1.增加了Anr监控功能
+
+2.增加了socket监控功能
+
+3.增加了android的帧率监控功能
+
+4.优化了运营商获取方式
+
+5.优化了webview的兼容性
+
+修复问题：
+
+    修复了部分bug。
+
 ## OneAPM Android SDK 2.0.3
 
 **发布日期：**2015/10/30
