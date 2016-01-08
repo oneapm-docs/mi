@@ -1,5 +1,19 @@
 # Android
 
+## OneAPM Android SDK 1.0.7
+
+**发布日期：**2015/2/14
+
+**增加功能：**
+
+1.慢 trace 和 Crash 添加了 running app 功能；
+
+2.Crash 添加了 Crash 操作路径，便于 bug 的复现；
+
+3.数据传输智能判断是否该使用加密链接；
+
+4.其他一些细节改进。 
+
 ## OneAPM Android SDK 1.0.6
 
 **发布日期：**2014/12/22
