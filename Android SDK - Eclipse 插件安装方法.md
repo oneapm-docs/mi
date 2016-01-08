@@ -83,12 +83,3 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 * 销售咨询热线： 400-659-1230
 
 * OneAPM客服邮箱：support@oneapm.com
-
-
-
-
-
-
-
-
-
