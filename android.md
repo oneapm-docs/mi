@@ -18,7 +18,7 @@
 
 修复问题：
 
-    修复了部分bug。
+1.修复了部分bug。
 
 ## OneAPM Android SDK 2.0.3
 
