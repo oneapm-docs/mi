@@ -55,6 +55,14 @@
 
 如果 App 使用 ProGuard 工具来优化发布的 Apk 包，为了保证 App 监测 SDK 可以正常使用，请在所属项目的 proguard.cfg文件中加入以下的内容：
 
+```
+-dontwarn org.apache.commons.**
+-keep class org.apache.http.impl.client.**
+-dontwarn org.apache.commons.**
+-keep class com.blueware.** { *; }
+-dontwarn com.blueware.**
+-keepattributes Exceptions, Signature, InnerClasses
+```
 
 
 
