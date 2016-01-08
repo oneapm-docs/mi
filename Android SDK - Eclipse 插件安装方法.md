@@ -35,6 +35,8 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 * 第二步：执行安装 OneAPM 插件会自动复制 OneAPM Agent 的 jar 包到工程的 libs 目录。安装成功如下：
 
+![Eclipse安装](Eclipse 安装方法5-1419579667.png)
+
 
 
 
