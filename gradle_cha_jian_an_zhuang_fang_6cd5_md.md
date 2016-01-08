@@ -24,6 +24,8 @@
 
 第一步：打开主模块目录下的 build.gradle 文件。
 
+![Gradle安装](Gradle 安装方法3-1419580168.png)
+
 第二步：在 dependencies 模块中加入代码。
 
 ```compile fileTree(dir:'YourOneAPMPath/oneapm/agent',include:['*.jar'])```
