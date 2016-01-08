@@ -1,5 +1,31 @@
 # Android
 
+## OneAPM Android SDK 2.0.2
+
+**发布日期：**2015/9/21
+
+**优化功能：**
+
+1.优化探针对 Cordova 框架，Webview 的支持；
+
+2.优化探针对网宿 SDK 的支持；
+
+3.优化设置页面上传 ProGuard 文件功能；
+
+4.优化日活数据类型，添加 IMEI 信息；
+
+5.优化用户信息模块，允许用户上传长度为256字节以内的用户信息；
+
+6.优化网络请求 trace 数据中 HTTP Request/Response Header 信息的采集。默认设置为不采集，付费用户可设置开启该功能。
+
+修复问题：
+
+    交互 trace 详情中显示联网信息、地理位置、电量、CPU、Root 信息。
+
+备注：
+
+    启用 WebView 功能需要配置对应的 WebView JavaScript 文件，具体操作请参考文档：WebView 性能监控使用说明。
+
 ## OneAPM Android SDK 2.0.1
 
 **发布日期：**2015/7/24
