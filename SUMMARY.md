@@ -6,7 +6,7 @@
    * [iOS](ios.md)
 * [使用平台](shi_yong_ping_tai.md)
    * [Android](Sandroid.md)
-       * [SDK](sdk.md)
+       * [Gradle 插件安装方法](Gradle 插件安装方法.md)
    * [iOS](Sios.md)
 * [功能说明](4chang_jian_zhu_yu_jie_shi.md)
    * [应用](Gying_yong.md)
