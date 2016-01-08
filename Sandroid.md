@@ -10,3 +10,4 @@ OneAPM Android SDK 会在用户 Java 代码编译期间检测用户用了哪些�
 
 # SDK 安装说明
 
+## Android SDK - Gradle 插件安装方法
