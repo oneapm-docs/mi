@@ -1,5 +1,7 @@
 # OneAPM for Android
 
+## SDK 安装说明
+
 OneAPM Android SDK 会在用户 Java 代码编译期间检测用户用了哪些可能影响用户的 App 性能的接口，并在这些接口执行前记录接口执行的开始时间，在执行后，记录接口的结束时间。
 
 这两个时间的差值就是接口的执行时间，加上其他一些可能的参数一起上报给 Server。Server 根据这些收集到的数据分类的可视化展示，就是你们看见的数据了。
@@ -8,7 +10,6 @@ OneAPM Android SDK 会在用户 Java 代码编译期间检测用户用了哪些�
 
 需要说明的是目前 OneAPM Eclipse 插件是不支持 JDK 1.8 的，使用 JDK 1.8 的用户可以通过下载安装 OneAPM SDK 来监控管理 App。
 
-# SDK 安装说明
 
 ## Android SDK - Gradle 插件安装方法
 
