@@ -65,6 +65,8 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 <uses-permission android:name="android.permission.GET_TASKS" />
 ```
 
+**注意**：如果应用使用 progurd 混淆，请按如下方式配置
+
 
 
 
