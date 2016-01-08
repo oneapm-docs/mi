@@ -76,7 +76,13 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 -keepattributes Exceptions, Signature, InnerClasses
 ```
 
+静候 5 分钟后，若无应用程序相关性能数据展现，或安装过程中出现问题：请联系 OneAPM 客服人员：
 
+* 技术咨询热线： 400-622-3101
+
+* 销售咨询热线： 400-659-1230
+
+* OneAPM客服邮箱：support@oneapm.com
 
 
 
