@@ -36,21 +36,27 @@
 
 确保应用程序的 AndroidManifest.xml 配置文件中，引入了 INTERNET 和 ACCESS_NETWORK_STATE 两个请求授权：
 
+```
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+```
 
 若想使用 Crash 快照功能，请引入以下授权信息：
 
+```
 <uses-permission android:name="android.permission.GET_TASKS" />
+```
 
 注意：如果您的应用使用 progurd 混淆，请配置以下：
 
- -dontwarn org.apache.commons.**
+```
+-dontwarn org.apache.commons.**
  -keep class org.apache.http.impl.client.**
  -dontwarn org.apache.commons.**
  -keep class com.blueware.** { *; }
  -dontwarn com.blueware.**
  -keepattributes Exceptions, Signature, InnerClasses
+```
 
 7. 启动 Agent
 
