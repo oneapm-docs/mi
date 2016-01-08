@@ -8,20 +8,21 @@
 
 **优化功能：**
 
-增加了Anr监控功能
+1. 增加了Anr监控功能
 
-增加了socket监控功能
+1. 增加了socket监控功能
 
-增加了android的帧率监控功能
+1. 增加了android的帧率监控功能
 
-优化了运营商获取方式
+1. 优化了运营商获取方式
 
-优化了webview的1容性
+1. 优化了webview的1容性
 
 
 修复问题：
 
-1.修复了部分bug。
+1. 
+修复了部分bug。
 
 ## OneAPM Android SDK 2.0.3
 
