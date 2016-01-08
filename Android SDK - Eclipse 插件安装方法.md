@@ -59,6 +59,10 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 * 第一步：在待监测的 App 工程的 AndroidMainfest.xml 文件中增加以下的权限
 
+```
+<uses-permission android:name="android.permission.INTERNET" /> <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.GET_TASKS" />
+```
 
 
 
