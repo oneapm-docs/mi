@@ -67,6 +67,15 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 **注意**：如果应用使用 progurd 混淆，请按如下方式配置
 
+```
+-dontwarn org.apache.commons.**
+-keep class org.apache.http.impl.client.**
+-dontwarn org.apache.commons.**
+-keep class com.blueware.** { *; }
+-dontwarn com.blueware.**
+-keepattributes Exceptions, Signature, InnerClasses
+```
+
 
 
 
