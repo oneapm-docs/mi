@@ -30,6 +30,8 @@
 
 ```compile fileTree(dir:'YourOneAPMPath/oneapm/agent',include:['*.jar'])```
 
+![Gradle安装](Gradle 安装方法4-1419580184.png)
+
 第三步：在文件头部引入 OneAPM。
 
 ```apply plugin: 'oneapm'```
