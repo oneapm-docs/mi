@@ -18,3 +18,18 @@
 
 `mvn install:install-file -DgroupId=com.oneapm.agent.android -DartifactId=plugin.maven -Dversion=PLUGIN_VERSION -Dpackaging=jar -Dfile=PATH_TO_ONEAPM_MAVEN_PATH\plugin.maven.jar -DpomFile=PATH_TO_ONEAPM_MAVEN_PATH\plugin.maven.pom`
 
+**例如，配置一个例子：**
+
+`mvn install:install-file -DgroupId=com.oneapm.agent.android -DartifactId=plugin.maven -Dversion=PLUGIN_VERSION -Dpackaging=jar -Dfile=E:\agent\gitlab\android-maven-plugin\target\plugin.maven.jar -DpomFile=E:\agent\gitlab\android-maven-plugin\target\plugin.maven.pom`
+
+**注意：-Dfile=这个后面一定不要有空格，否则运行 Maven 会报错！！！**
+
+* 3、配置本地 pom.xml 文件，添加刚才注册的 jar 包，如下 
+
+
+
+
+
+
+
+
