@@ -12,3 +12,25 @@ OneAPM Android SDK 会在用户 Java 代码编译期间检测用户用了哪些�
 
 ## Android SDK - Gradle 插件安装方法
 
+1. 命名应用程序并获取 App token
+
+    第一步：命名应用程序。
+
+    第二步：复制 App token 的序列码，在接下来的步骤中使用。
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
