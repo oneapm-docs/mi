@@ -24,16 +24,14 @@ OneAPM Android SDK 会在用户 Java 代码编译期间检测用户用了哪些�
 
     第一步：打开工程根目录下的 build.gradle 文件。
 
-    ![配置Gradle](Gradle 安装方法1-1419580143.png)
+![配置Gradle](Gradle 安装方法1-1419580143.png)
 
     第二步：在 dependencies 模块中加入代码。
 
 ```classpath fileTree(dir: 'YourOneAPMPath/oneapm/plugin', include: ['*.jar'])```
 
 
-4. 引入 OneAPM
-
-    ![配置Gradle](Gradle 安装方法2-1419580155.png)
+![配置Gradle](Gradle 安装方法2-1419580155.png)
 
 
 
