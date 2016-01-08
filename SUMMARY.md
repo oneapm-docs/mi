@@ -10,6 +10,7 @@
        * [Eclipse 插件安装方法](Eclipse 插件安装方法.md)
        * [Ant 安装方法](Ant 安装方法.md)
        * [Maven 插件安装方法](Maven 插件安装方法.md)
+       * IntelliJ IDEA eclipse 项目安装方法
    * [iOS](Sios.md)
 * [功能说明](4chang_jian_zhu_yu_jie_shi.md)
    * [应用](Gying_yong.md)
