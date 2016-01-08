@@ -19,3 +19,5 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 `https://download.oneapm.com/android_agent/eclipse_gt_4.4/`
 
+![Eclipse安装](Eclipse 安装方法2-1419579643.png)
+
