@@ -36,6 +36,8 @@
 
 ```apply plugin: 'oneapm'```
 
+![Gradle安装](Gradle 安装方法5-1419580196)
+
 5.rebuild & clean 项目
 
 建议 rebuild & clean 项目，来确保 OneAPM 配置生效。
