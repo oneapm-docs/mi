@@ -31,3 +31,4 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 * 第一步：新建或者在已有 Android Project 工程右键会出现如下：
  
+![Eclipse安装](Eclipse 安装方法4-1419579660.png)
