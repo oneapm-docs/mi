@@ -21,6 +21,7 @@ OneAPM Android SDK 会在用户 Java 代码编译期间检测用户用了哪些�
 2. 下载并解压 OneAPM SDK
 
 3. 配置 Gradle
+4. 引入 OneAPM
 
     第一步：打开工程根目录下的 build.gradle 文件。
 
