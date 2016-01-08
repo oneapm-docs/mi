@@ -47,6 +47,8 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 * 第二步：在应用的主 Activity 的 class 中，添加
 
+`import com.blueware.agent.android.BlueWare;`
+
 
 
 
