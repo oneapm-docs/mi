@@ -15,7 +15,7 @@
 
     第二步：在 dependencies 模块中加入代码。
 
-    ```classpath fileTree(dir: 'YourOneAPMPath/oneapm/plugin', include: ['*.jar'])```
+```classpath fileTree(dir: 'YourOneAPMPath/oneapm/plugin', include: ['*.jar'])```
 
 4. 引入 OneAPM
 
