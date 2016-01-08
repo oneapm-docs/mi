@@ -42,7 +42,15 @@ OneAPM Android SDK 会在用户 Java 代码编译期间检测用户用了哪些�
 
 第二步：在 dependencies 模块中加入代码。
 
+```compile fileTree(dir:'YourOneAPMPath/oneapm/agent',include:['*.jar'])```
 
+![配置Gradle](Gradle 安装方法4-1419580184.png)
+
+第三步：在文件头部引入 OneAPM。
+
+```apply plugin: 'oneapm'```
+
+![配置Gradle](Gradle 安装方法5-1419580196.png)
 
 
 
