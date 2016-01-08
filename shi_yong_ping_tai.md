@@ -47,6 +47,8 @@
 
 `BlueWare.withApplicationToken("ApiKey").start(this.getApplication());`
 
+**注意**：APIKey 由 OneAPM 分发，每个应用对应一个唯一的 APIKey。
+
 
 
 
