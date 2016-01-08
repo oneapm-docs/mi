@@ -30,6 +30,8 @@
 
 ## 2. 设置 App 权限
 
+构建完成后，请在待监测的 App 工程的 AndroidMainfest.xml 文件中增加以下的权限：
+
 
 
 
