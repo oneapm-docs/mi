@@ -31,7 +31,8 @@
 5.rebuild & clean 项目
 
 建议 rebuild & clean 项目，来确保 OneAPM 配置生效。
-6.  配置授权信息
+
+6.配置授权信息
 
 确保应用程序的 AndroidManifest.xml 配置文件中，引入了 INTERNET 和 ACCESS_NETWORK_STATE 两个请求授权：
 
