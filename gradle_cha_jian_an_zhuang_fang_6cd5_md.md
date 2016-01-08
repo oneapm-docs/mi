@@ -8,8 +8,6 @@
 
 2. 下载并解压 OneAPM SDK
 
-到官网下载最新版本的探针
-
 3. 配置 Gradle
 
     第一步：打开工程根目录下的 build.gradle 文件。
