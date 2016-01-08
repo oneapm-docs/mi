@@ -45,6 +45,8 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 ![Eclipse安装](Eclipse 安装方法6-1419579677.png)
 
+* 第二步：在应用的主 Activity 的 class 中，添加
+
 
 
 
