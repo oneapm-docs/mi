@@ -23,3 +23,6 @@
 不要放在工程的 libs 目录中！
 
 * 方法二：在命令行中设置
+
+`set ANT_OPTS="-javaagent:/path/to/oneapm/class.rewriter.jar"`
+
