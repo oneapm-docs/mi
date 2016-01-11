@@ -47,3 +47,5 @@ private class MyWebViewClient extends OneapmWebViewClient{
     }
 }
 ```
+
+**注意**：WebView监控功能 Android 4.2 及以上版本可用。
