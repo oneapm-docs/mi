@@ -33,6 +33,7 @@
 * [常见问题](Release Note)
    * [Android](candroid.md)
        * SDK 安装后提示错误信息：由于使用 JRE 运行 Eclipse 导致 OneAPM 无法正确加载
+           * SDK 安装后提示错误信息：由于使用 JRE 运行 Eclipse 导致 OneAPM 无法正确加载
    * [iOS](Cios.md)
        * [SDWebImage 造成的 crash 问题](isdwebimage_zao_cheng_de_crash_wen_ti.md)
        * [Xcode 版本低于6.3，CPU 占用达到100%](ixcode_ban_ben_di_yu_6__3__cpu_zhan_yong_da_dao_100.md)
