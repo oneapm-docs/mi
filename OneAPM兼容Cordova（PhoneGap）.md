@@ -16,3 +16,5 @@ WebView wV = (WebView)appView.getEngine().getView();
 
 小于5.0版本的，在Activity中应该可以直接获取。
 
+*资料下载*
+
