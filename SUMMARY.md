@@ -38,7 +38,7 @@
        * [Mac OS下 Android Studio 如何卸载探针？](Mac OS下 Android Studio 如何卸载探针？.md)
        * [OneAPM兼容Cordova（PhoneGap）](OneAPM兼容Cordova（PhoneGap）.md)
        * [升级Android Agent 2.0.4后嵌入Token那行代码报错？](升级Android Agent 2.0.4后嵌入Token那行代码报错？.md)
-       * Eclipse 安装 SDK 提示“The chosen operation is not currently available”
+       * [Eclipse 安装 SDK 提示“The chosen operation is not currently available”](Eclipse 安装 SDK 提示“The chosen operation is not currently available”.md)
    * [iOS](Cios.md)
        * [SDWebImage 造成的 crash 问题](isdwebimage_zao_cheng_de_crash_wen_ti.md)
        * [Xcode 版本低于6.3，CPU 占用达到100%](ixcode_ban_ben_di_yu_6__3__cpu_zhan_yong_da_dao_100.md)
