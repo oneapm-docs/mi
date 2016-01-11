@@ -40,6 +40,7 @@
        * [升级Android Agent 2.0.4后嵌入Token那行代码报错？](升级Android Agent 2.0.4后嵌入Token那行代码报错？.md)
        * [Eclipse 安装 SDK 提示“The chosen operation is not currently available”](Eclipse 安装 SDK 提示“The chosen operation is not currently available”.md)
        * [集成了 OneAPM 探针后，Crash 功能界面无数据](集成了 OneAPM 探针后，Crash 功能界面无数据.md)
+       * SDK 安装后提示错误信息：No providers installed
    * [iOS](Cios.md)
        * [SDWebImage 造成的 crash 问题](isdwebimage_zao_cheng_de_crash_wen_ti.md)
        * [Xcode 版本低于6.3，CPU 占用达到100%](ixcode_ban_ben_di_yu_6__3__cpu_zhan_yong_da_dao_100.md)
