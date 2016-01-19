@@ -47,11 +47,15 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 * 第二步：在应用的主 Activity 的 class 中，添加
 
-`import com.blueware.agent.android.BlueWare;`
+```java
+import com.blueware.agent.android.BlueWare;
+```
 
 * 第三步：在 onCreate 方法中，添加
 
-`BlueWare.withApplicationToken(ApiKey).start(this.getApplication());`
+```java
+BlueWare.withApplicationToken("your token").start(this.getApplication());
+```
 
 **注意**：APIKey 由 OneAPM 分发，每个应用对应一个唯一的 APIKey。
 
@@ -59,7 +63,7 @@ Eclipse 4.4 及之后的版本（需要 JDK 1.8），请使用：
 
 * 第一步：在待监测的 App 工程的 AndroidMainfest.xml 文件中增加以下的权限
 
-```
+```xml
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 <uses-permission android:name="android.permission.GET_TASKS" />
