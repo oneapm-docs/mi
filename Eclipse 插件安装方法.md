@@ -66,7 +66,19 @@ BlueWare.withApplicationToken("your token").start(this.getApplication());
 ```xml
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+```
+
+若想使用 Crash 快照功能，请引入以下授权信息：
+
+```xml
 <uses-permission android:name="android.permission.GET_TASKS" />
+```
+
+如果使用基站定位，请添加如下权限：
+
+```xml
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 ```
 
 **注意**：如果应用使用 progurd 混淆，请按如下方式配置
