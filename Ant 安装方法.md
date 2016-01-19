@@ -32,11 +32,23 @@
 
 构建完成后，请在待监测的 App 工程的 AndroidMainfest.xml 文件中增加以下的权限：
 
-```
+```xml
 <uses-permission android:name="android.permission.INTERNET" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+```
+
+若想使用 Crash 快照功能，请引入以下授权信息：
+
+```xml
 <uses-permission android:name="android.permission.GET_TASKS" />
 ```
+
+如果使用基站定位，请添加如下权限：
+
+```xml
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATI
+
 ## 3. 配置 Agent
 
 * 第一步：在应用的主 Activity 的 class 中，添加
