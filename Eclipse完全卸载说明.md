@@ -18,3 +18,18 @@
 
 ![eclipse](eclipse5.png)
 
+**\eclipse\features**
+
+删除下面的目录：
+
+![eclipse](eclipse6.png)
+
+编辑 artifacts.xml 文件：
+
+![eclipse](eclipse7.png)
+
+搜索“oneapm”关键字，删除所有包含“oneapm”的artifact节点元素。
+
+![eclipse](eclipse8.png)
+
+重启Eclipse即可。
