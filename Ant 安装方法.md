@@ -47,7 +47,8 @@
 如果使用基站定位，请添加如下权限：
 
 ```xml
-<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATI
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+```
 
 ## 3. 配置 Agent
 
