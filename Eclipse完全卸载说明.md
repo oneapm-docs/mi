@@ -15,3 +15,5 @@
 打开Eclipse的安装目录：**\eclipse\plugins**
 
 删除下面的目录：
+
+![eclipse](eclipse5.png)
