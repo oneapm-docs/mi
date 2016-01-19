@@ -81,6 +81,12 @@ apply plugin: 'oneapm'
  -keepattributes Exceptions, Signature, InnerClasses
 ```
 
+注意：如果您希望保留行号信息，建议您在 proguard.cfg 中添加如下代码：
+
+```
+- keepattributes SourceFile ,LineNumberTable
+```
+
 7.启动 Agent
 
 在默认 Activity 中 import BlueWare 类：
