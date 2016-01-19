@@ -55,7 +55,7 @@
 
 完整如下: 
 
-```
+```xml
 <groupId>xxx.yyy.zzzz</groupId>
 <artifactId>TestMavenAndroid02</artifactId>
 <version>1.0</version>
