@@ -92,6 +92,12 @@ BlueWare.withApplicationToken("your token").start(this.getApplication());
 -keepattributes Exceptions, Signature, InnerClasses
 ```
 
+注意：如果您希望保留行号信息，建议您在 proguard.cfg 中添加如下代码：
+
+```
+- keepattributes SourceFile ,LineNumberTable
+```
+
 静候 5 分钟后，若无应用程序相关性能数据展现，或安装过程中出现问题：请联系 OneAPM 客服人员：
 
 * 技术咨询热线： 400-622-3101
