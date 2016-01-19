@@ -28,7 +28,7 @@
 
 依赖：
 
-```
+```xml
 <dependency>
     <groupId>com.oneapm.agent.android</groupId>
     <artifactId>agent.android</artifactId>
@@ -38,7 +38,7 @@
 
 插件：
 
-```
+```xml
 <plugin>
     <groupId>com.oneapm.agent.android</groupId>
     <artifactId>plugin.maven</artifactId>
