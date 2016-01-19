@@ -81,6 +81,12 @@ BlueWare.withApplicationToken("ApiKey").start(this.getApplication());
 -keepattributes Exceptions, Signature, InnerClasses
 ```
 
+注意：如果您希望保留行号信息，建议您在 proguard.cfg 中添加如下代码：
+
+```
+- keepattributes SourceFile ,LineNumberTable
+```
+
 * 第二步：使用 Ant 重新编译并安装 App，在项目根目录下运行：
 
 `ant clean release install`
