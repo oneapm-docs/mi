@@ -109,6 +109,43 @@
 
 * 4、配置授权信息
 
+确保应用程序的 AndroidManifest.xml 配置文件中，引入了 INTERNET 和 ACCESS_NETWORK_STATE 三个请求授权:
+
+```xml
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+```
+
+若想使用 Crash 快照功能，请引入以下授权信息
+
+```xml
+<uses-permission android:name="android.permission.GET_TASKS" />
+```
+
+如果使用基站定位，请添加如下权限：
+
+```xml
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+```
+
+注意：如果您的应用使用 progurd 混淆，请配置以下
+
+```
+-dontwarn org.apache.commons.**
+-keep class org.apache.http.impl.client.**
+-dontwarn org.apache.commons.**
+-keep class com.blueware.** { *; }
+-dontwarn com.blueware.**
+-keepattributes Exceptions, Signature, InnerClasses
+```
+
+注意：如果您希望保留行号信息，建议您在 proguard.cfg 中添加如下代码：
+
+```
+- keepattributes SourceFile ,LineNumberTable
+```
+
 * 5、启动 Agent
 
 * 6、静候 5 分钟，开启 OneAPM 之旅
