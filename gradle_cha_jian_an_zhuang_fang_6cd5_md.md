@@ -16,7 +16,9 @@
 
     第二步：在 dependencies 模块中加入代码。
 
-```classpath fileTree(dir: 'YourOneAPMPath/oneapm/plugin', include: ['*.jar'])```
+```java
+classpath fileTree(dir: 'YourOneAPMPath/oneapm/plugin', include: ['*.jar'])
+```
 
 ![Gradle安装](Gradle 安装方法2-1419580155.png)
 
