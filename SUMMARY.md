@@ -45,6 +45,7 @@
        * [Eclipse 插件安装过程中无法勾选 OneAPM 插件并提示: There are no categorized item](Eclipse 插件安装过程中无法勾选 OneAPM 插件并提示: There are no categorized item.md)
        * [WebView 性能监控使用说明](WebView 性能监控使用说明.md)
        * [安装 Android 探针后启动发生异常：finished with non-zero exit value 1解决办法](安装Android探针后启动发生异常.md)
+       * Eclipse完全卸载说明
    * [iOS](Cios.md)
        * [SDWebImage 造成的 crash 问题](isdwebimage_zao_cheng_de_crash_wen_ti.md)
        * [Xcode 版本低于6.3，CPU 占用达到100%](ixcode_ban_ben_di_yu_6__3__cpu_zhan_yong_da_dao_100.md)
