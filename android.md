@@ -1,6 +1,38 @@
 # Android
 
-如何更新最新的 Android SDK ？请查看 Android SDK 更新方法 
+如何更新最新的 Android SDK ？请查看 Android SDK 更新方法
+
+## OneAPM Android SDK 2.0.4.1(Beta)
+
+**发布日期：**2015/12/28
+
+**优化功能：**
+
+1. 
+解决帧率的bug
+1. 
+优化机型的兼容
+1. 
+修复可能的前后台切换黑屏问题 
+1. 
+解决渠道号读取bug
+
+## OneAPM Android SDK 2.0.3.2
+
+**发布日期：**2015/12/15
+
+**优化功能：**
+
+1. 
+解决ajax在webview5.0上无数据的问题
+1. 
+解决帧率的bug
+1. 
+解决前后台切换的可能的黑屏问题
+1. 
+解决了CPU可能为0的情况
+1. 
+修复jsError点击无法查看详情的情况。
 
 ## OneAPM Android SDK 2.0.4(Beta)
 
@@ -18,28 +50,10 @@
 
 1. 优化了webview的1容性
 
-
 修复问题：
 
 1. 
 修复了部分bug。
-
-## OneAPM Android SDK 2.0.3.2
-
-1. 
-解决ajax在webview5.0上无数据的问题
-
-1. 
-解决帧率的bug
-
-1. 
-解决前后台切换的可能的黑屏问题
-
-1.
-解决了CPU可能为0的情况
-
-1.
-修复jsError点击无法查看详情的情况。
 
 ## OneAPM Android SDK 2.0.3
 
