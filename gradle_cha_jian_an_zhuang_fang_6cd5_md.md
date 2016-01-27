@@ -12,7 +12,7 @@
 
 第一步：打开工程根目录下的 build.gradle 文件。
     
-![Gradle安装](Gradle 安装方法1-1419580143.png)
+![Gradle安装](gradle11419580143.png)
 
 第二步：在 dependencies 模块中加入代码。
 
@@ -20,13 +20,13 @@
 classpath fileTree(dir: 'YourOneAPMPath/oneapm/plugin', include: ['*.jar'])
 ```
 
-![Gradle安装](Gradle 安装方法2-1419580155.png)
+![Gradle安装](gradle21419580155.png)
 
 4.引入 OneAPM
 
 第一步：打开主模块目录下的 build.gradle 文件。
 
-![Gradle安装](Gradle 安装方法3-1419580168.png)
+![Gradle安装](gradle31419580168.png)
 
 第二步：在 dependencies 模块中加入代码。
 
@@ -34,7 +34,7 @@ classpath fileTree(dir: 'YourOneAPMPath/oneapm/plugin', include: ['*.jar'])
 compile fileTree(dir:'YourOneAPMPath/oneapm/agent',include:['*.jar'])
 ```
 
-![Gradle安装](Gradle 安装方法4-1419580184.png)
+![Gradle安装](gradle41419580184.png)
 
 第三步：在文件头部引入 OneAPM。
 
@@ -42,7 +42,7 @@ compile fileTree(dir:'YourOneAPMPath/oneapm/agent',include:['*.jar'])
 apply plugin: 'oneapm'
 ```
 
-![Gradle安装](Gradle 安装方法5-1419580196)
+![Gradle安装](gradle51419580196.png)
 
 5.rebuild & clean 项目
 

@@ -12,5 +12,6 @@ _book
 
 # eBook build output
 *.epub
+/.idea
 *.mobi
 *.pdf

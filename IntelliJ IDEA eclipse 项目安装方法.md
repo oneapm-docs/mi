@@ -6,17 +6,17 @@
 
 在移动应用 > 添加应用 > Android 页面，根据 Ant 方法下载 OneAPM Android Agent SDK，解压到某处。如下图：
 
-![IntelliJ IDEA安装](QQ图片20150612163239-1435039628.png)
+![IntelliJ IDEA安装](QQ201506121632391435039628.png)
 
 ## 2、设置 Android 编译的代理路径
 
 * 选择 file->settings
 
-![IntelliJ IDEA安装](QQ图片20150612163345-1435039687.png)
+![IntelliJ IDEA安装](QQ201506121633451435039687.png)
 
 * 找到 Android Compilers，设置 Additional VM 参数
 
-![IntelliJ IDEA安装](QQ图片20150612163418-1435039690.png)
+![IntelliJ IDEA安装](QQ201506121634181435039690.png)
 
 **注意**：Additional VM 参数值的设置为： -javaagent: 你的 class.rewriter.jar 文件所在的绝对路径。
 

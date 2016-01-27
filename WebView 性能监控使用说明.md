@@ -8,13 +8,13 @@ WebView 监控 JavaScript 文件下载链接:https://oneapm.kf5.com/posts/view/4
 
 拷贝包含 oneapm_webview.js 文件的 oneapm 文件夹到 Android 项目工程的 assets 文件夹下，如果没有这个文件夹请手动添加。添加完成之后，项目结构如下图所示：
 
-![](QQͼƬ20150925113541.jpg)
+![](QQT20150925113541.jpg)
 
 * 2、Android Studio安装方式：
 
 拷贝包含 oneapm_webview.js 文件的 oneapm 文件夹到 app/src/main 下的 assets 文件夹下，如果没有这个文件夹请手动添加。添加完成之后，项目结构如下图所示：
 
-![](QQ截图20151119120006.png)
+![](QQ20151119120006.png)
 
 * 3、在自己的代码中找到需要监控的 WebView 对象，检查这个 WebView 对象是否设置了 WebViewClient ，如果没有，可以添加如下代码：
 

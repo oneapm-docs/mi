@@ -1,6 +1,6 @@
 # Summary
 
-* [快速入门](3gong_neng_shuo_ming.md)
+* [快速入门](intro.md)
 * [版本更新](README.md)
    * [Android](android.md)
    * [iOS](ios.md)

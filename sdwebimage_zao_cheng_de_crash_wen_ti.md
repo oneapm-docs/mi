@@ -6,7 +6,7 @@
 
 
 SDWebImage 是一个项目开发中必不可少的三方库，但是当与 OneAPM 的 SDK 结合开发项目时，若 SDWebImage 的版本不是最新的，会出现 crash 情况，在 ios7 系统 iphone4 设备下的频率尤其高，crash log 打印如下图。
-![](屏幕快照 2015-12-24 上午11.29.24.png)
+![](image20151224112924.png)
 
 
 ## 解决办法
