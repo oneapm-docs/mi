@@ -4,7 +4,6 @@
 * [版本更新](README.md)
    * [Android](android.md)
    * [iOS](ios.md)
-   * 11
 * [使用平台](shi_yong_ping_tai.md)
    * [Android](Sandroid.md)
        * [Gradle 插件安装方法](gradle_cha_jian_an_zhuang_fang_6cd5_md.md)
