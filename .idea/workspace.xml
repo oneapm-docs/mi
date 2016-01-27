@@ -2,82 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689e7ec8-4077-458b-b1cc-7f81acf5da9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1426824126.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/mobile-insight.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ant_opts(03-20-10-21-34)-1426824126.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/3gong_neng_shuo_ming.md" afterPath="$PROJECT_DIR$/intro.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Eclipse 安装方法1-1419579629.png" afterPath="$PROJECT_DIR$/eclipse11419579629.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Eclipse 安装方法2-1419579643.png" afterPath="$PROJECT_DIR$/eclipse21419579643.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Eclipse 安装方法4-1419579660.png" afterPath="$PROJECT_DIR$/eclipse41419579660.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Eclipse 安装方法5-1419579667.png" afterPath="$PROJECT_DIR$/eclipse51419579667.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Eclipse 安装方法6-1419579677.png" afterPath="$PROJECT_DIR$/eclipse61419579677.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Gradle 安装方法1-1419580143.png" afterPath="$PROJECT_DIR$/gradle11419580143.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Gradle 安装方法2-1419580155.png" afterPath="$PROJECT_DIR$/gradle21419580155.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Gradle 安装方法3-1419580168.png" afterPath="$PROJECT_DIR$/gradle31419580168.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Gradle 安装方法4-1419580184.png" afterPath="$PROJECT_DIR$/gradle41419580184.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Gradle 安装方法5-1419580196.png" afterPath="$PROJECT_DIR$/gradle51419580196.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/QQͼƬ20150729174216.jpg" afterPath="$PROJECT_DIR$/QQT20150729174216.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/QQͼƬ20150925113541.jpg" afterPath="$PROJECT_DIR$/QQT20150925113541.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/QQͼƬ20151124185528.png" afterPath="$PROJECT_DIR$/QQT20151124185528.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/QQ图片20150612163239-1435039628.png" afterPath="$PROJECT_DIR$/QQ201506121632391435039628.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/QQ图片20150612163345-1435039687.png" afterPath="$PROJECT_DIR$/QQ201506121633451435039687.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/QQ图片20150612163418-1435039690.png" afterPath="$PROJECT_DIR$/QQ201506121634181435039690.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/QQ截图20151119120006.png" afterPath="$PROJECT_DIR$/QQ20151119120006.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/QQ截图20160111114840.png" afterPath="$PROJECT_DIR$/QQ20160111114840.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/交互3.png" afterPath="$PROJECT_DIR$/interactive3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/交互总.png" afterPath="$PROJECT_DIR$/interactiveall.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/卡顿.png" afterPath="$PROJECT_DIR$/slow.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/卡顿2.png" afterPath="$PROJECT_DIR$/slow2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/图1.png" afterPath="$PROJECT_DIR$/image1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/图2 .png" afterPath="$PROJECT_DIR$/image2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/图3.png" afterPath="$PROJECT_DIR$/image20151224113250.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/图4.png" afterPath="$PROJECT_DIR$/image2015122521055.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/屏幕快照 2015-12-24 10.56.53.png" afterPath="$PROJECT_DIR$/image20151224105653.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/屏幕快照 2015-12-24 上午11.29.24.png" afterPath="$PROJECT_DIR$/image20151224112924.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/屏幕快照 2015-12-24 上午11.32.45.png" afterPath="$PROJECT_DIR$/image20151224113245.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/屏幕快照 2015-12-24 上午11.32.50.png" afterPath="$PROJECT_DIR$/image3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/屏幕快照 2015-12-25 下午2.10.39.png" afterPath="$PROJECT_DIR$/image2015122521039.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/屏幕快照 2015-12-25 下午2.10.46.png" afterPath="$PROJECT_DIR$/image2015122521046.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/屏幕快照 2015-12-25 下午2.10.55.png" afterPath="$PROJECT_DIR$/image4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/屏幕快照 2015-12-25 下午2.11.04.png" afterPath="$PROJECT_DIR$/image2015122521104.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/屏幕快照 2015-12-25 下午2.11.13.png" afterPath="$PROJECT_DIR$/image2015122521113.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/屏幕快照 2015-12-25 下午2.11.20.png" afterPath="$PROJECT_DIR$/image2015122521120.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/屏幕快照 2015-12-25 下午2.11.27.png" afterPath="$PROJECT_DIR$/image2015122521127.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/屏幕快照 2015-12-25 下午2.11.36.png" afterPath="$PROJECT_DIR$/image2015122521136.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/崩溃1.png" afterPath="$PROJECT_DIR$/crash1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/影响用户1.png" afterPath="$PROJECT_DIR$/impactuser1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/影响用户2.png" afterPath="$PROJECT_DIR$/impactuser2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/用户信息搜索1.png" afterPath="$PROJECT_DIR$/userInfoSearch1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/用户信息搜索3.png" afterPath="$PROJECT_DIR$/userInfoSearch3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Android SDK - Eclipse 插件安装方法.md" afterPath="$PROJECT_DIR$/Android SDK - Eclipse 插件安装方法.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ant 安装方法.md" afterPath="$PROJECT_DIR$/Ant 安装方法.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Eclipse 插件安装方法.md" afterPath="$PROJECT_DIR$/Eclipse 插件安装方法.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IntelliJ IDEA eclipse 项目安装方法.md" afterPath="$PROJECT_DIR$/IntelliJ IDEA eclipse 项目安装方法.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SDK 成功部署后 OneAPM 界面无数据显示.md" afterPath="$PROJECT_DIR$/SDK 成功部署后 OneAPM 界面无数据显示.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SUMMARY.md" afterPath="$PROJECT_DIR$/SUMMARY.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebView 性能监控使用说明.md" afterPath="$PROJECT_DIR$/WebView 性能监控使用说明.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/beng_kui.md" afterPath="$PROJECT_DIR$/beng_kui.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle_cha_jian_an_zhuang_fang_6cd5_md.md" afterPath="$PROJECT_DIR$/gradle_cha_jian_an_zhuang_fang_6cd5_md.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isdwebimage_zao_cheng_de_crash_wen_ti.md" afterPath="$PROJECT_DIR$/isdwebimage_zao_cheng_de_crash_wen_ti.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ixcode_ban_ben_di_yu_6__3__cpu_zhan_yong_da_dao_100.md" afterPath="$PROJECT_DIR$/ixcode_ban_ben_di_yu_6__3__cpu_zhan_yong_da_dao_100.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jiao_hu.md" afterPath="$PROJECT_DIR$/jiao_hu.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdk.md" afterPath="$PROJECT_DIR$/sdk.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sdwebimage_zao_cheng_de_crash_wen_ti.md" afterPath="$PROJECT_DIR$/sdwebimage_zao_cheng_de_crash_wen_ti.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shang_chuan_dsym_wen_jian_bu_zou.md" afterPath="$PROJECT_DIR$/shang_chuan_dsym_wen_jian_bu_zou.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shi_yong_ping_tai.md" afterPath="$PROJECT_DIR$/shi_yong_ping_tai.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uixing_80fd-_qia_dun.md" afterPath="$PROJECT_DIR$/uixing_80fd-_qia_dun.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xcode_ban_ben_di_yu_6__3__cpu_zhan_yong_da_dao_100.md" afterPath="$PROJECT_DIR$/xcode_ban_ben_di_yu_6__3__cpu_zhan_yong_da_dao_100.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yong_hu_xin_xi.md" afterPath="$PROJECT_DIR$/yong_hu_xin_xi.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/安装 Android 探针后启动发生异常：finished with non-zero exit value 1解决办法.md" afterPath="$PROJECT_DIR$/安装 Android 探针后启动发生异常：finished with non-zero exit value 1解决办法.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/安装Android探针后启动发生异常.md" afterPath="$PROJECT_DIR$/安装Android探针后启动发生异常.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mobile-insight.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,57 +24,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7020649">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SUMMARY.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SUMMARY.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SUMMARY.md">
           <provider editor-type-id="MultiMarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="intro.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intro.md">
-          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="1.0115163">
+                <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -438,11 +321,18 @@
       <option name="number" value="Default" />
       <updated>1453876550628</updated>
     </task>
+    <task id="LOCAL-00001" summary="refactor file&#10;">
+      <created>1453885531116</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1453885531116</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1370" y="119" width="1669" height="911" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3491088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -451,9 +341,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5529842" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26251528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -476,6 +366,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor file&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor file&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -829,13 +723,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/intro.md">
       <provider editor-type-id="MultiMarkdownFxPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.17957747">
             <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             <folding />
           </first_editor>
@@ -843,11 +751,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Release Note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7020649">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.35416666">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sandroid.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -857,22 +787,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intro.md">
-      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="1.0115163">
+            <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
