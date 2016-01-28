@@ -20,7 +20,7 @@
 
 - Trace 时序图是按照页面内线程加载顺序展示各个线程耗时情况，内存消耗，传输数据量等信息。
 
-- 线程信息包括：Image，Database，Json,ViewLoading,Network 5类
+- 线程信息包括：Image，Database，Json,ViewLoading,Network ,WebView 共6类。
 
 - 主线程使用粗体标注，时序图中色块长度代表线程耗时时长。也可以帮助非开发该功能的程序员看清楚其中的逻辑关系，快速定位造成 Activity 慢的原因。
 
