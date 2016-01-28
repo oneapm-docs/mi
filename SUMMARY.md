@@ -11,7 +11,7 @@
        * [Ant 安装方法](Ant 安装方法.md)
        * [Maven 插件安装方法](Maven 插件安装方法.md)
        * [IntelliJ IDEA eclipse 项目安装方法](IntelliJ IDEA eclipse 项目安装方法.md)
-       * 2.0.4.*以上版本安装方式
+       * [2.0.4.*以上版本安装方式](204yi_shang_ban_ben_an_zhuang_fang_shi.md)
    * [iOS](Sios.md)
 * [功能说明](4chang_jian_zhu_yu_jie_shi.md)
    * [应用](Gying_yong.md)
