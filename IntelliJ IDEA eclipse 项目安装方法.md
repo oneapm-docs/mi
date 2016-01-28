@@ -35,7 +35,8 @@
 启动代码示例：
 
 ```java
-BlueWare.withApplicationToken("You App Token").start(this.getApplication());
+BlueWare.withApplicationToken("You App Token")
+.start(this.getApplication());
 ```
 
 注册 OneAPM 账户，选择移动应用，点击添加应用程序即可获得 App token 。
