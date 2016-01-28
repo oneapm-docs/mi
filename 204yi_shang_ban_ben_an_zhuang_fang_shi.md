@@ -16,4 +16,42 @@ OneApmAgent.init(this)
 .start();
 ```
 
+配置渠道信息，在AndroidManifest.xml文件中添加meta-data项，要添加在Application标签内部
 
+```xml
+<meta-data android:name = "BluewareChannel" android:value="***" />
+```
+
+***代表App的发布渠道，如下图所示:
+
+![agent](agent.png)
+
+# 2、加统计分析功能
+
+在每个 Activity 中导入 OneApmAnalysis 类
+
+```java
+import com.oneapm.agent.android.module.analysis.OneApmAnalysis;
+```
+
+在每个 Activity 的 onPause() 方法中添加代码:
+
+```java
+OneApmAnalysis.onPause();
+```
+
+如下图所示：
+
+![](eclipse-statistics-onpause.png)
+
+在每个 Activity 的 onResume() 方法中添加代码:
+
+```java
+OneApmAnalysis.onResume();
+```
+
+如下图所示：
+
+![](eclipse-statistics-onresume.png)
+
+**注意**：如果两个Activity是继承关系，只需要在父Activity添加即可，如果在两个Activity中同时添加，则会造成重复统计。
