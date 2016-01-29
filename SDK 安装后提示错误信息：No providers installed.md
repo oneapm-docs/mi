@@ -8,7 +8,7 @@ Android SDK 通过 Eclipse 插件方法安装完成，重启后出现 No provide
 
 ## 解决方案
 
-**原因一**：没有使用 sun JDK，请安装 sun 官方 JDK 。
+**原因一**：没有使用 Oracle JDK，请安装 Oracle 官方 JDK 。
 
 **原因二**：若安装了其他第三方性能监控的 Eclipse 插件，请卸载其他第三方性能监控插件或者重新解压一份新的 Eclipse 重新安装 OneAPM 插件。
 
