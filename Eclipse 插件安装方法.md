@@ -54,7 +54,7 @@ import com.blueware.agent.android.BlueWare;
 * 第三步：在 onCreate 方法中，添加
 
 ```java
-BlueWare.withApplicationToken("use app token created at step 1").start(this.getApplication());
+BlueWare.withApplicationToken("<use app token created at step 1>").start(this.getApplication());
 ```
 
 **注意**：APIKey 由 OneAPM 分发，每个应用对应一个唯一的 APIKey。
