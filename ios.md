@@ -67,13 +67,8 @@ XCode7 + 开启bit code:
 1. 
 首次安装时重试间隔时间错误。
 改进功能：
-Agent 自身日志系统改善，统一输出格式，使用[OneAPM printLog:YES］开启或关闭，默认为关闭状态。
+SDK 自身日志系统改善，统一输出格式，使用[OneAPM printLog:YES］开启或关闭，默认为关闭状态。
 
-
-**改进功能：**
-
-1. 
-Agent 自身日志系统改善，统一输出格式，使用[OneAPM printLog:YES］开启或关闭，默认为关闭状态。
 
 [点击此处下载 iOS smart SDK](https://oneapm.kf5.com/attachments/download/324726/001564c3213991c1c71b682e6be5b26/)
 
