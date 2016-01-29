@@ -54,5 +54,5 @@
        * [上传dSYM文件步骤](shang_chuan_dsym_wen_jian_bu_zou.md)
        * [崩溃数据统计不到](beng_kui_shu_ju_tong_ji_bu_dao.md)
        * [为什么要上传dSYM文件？](wei_shi_yao_yao_shang_chuan_dsym_wen_jian_ff1f.md)
-       * 集成iOS sdk过程中搜索不到libz.dylib和libstdc++.dylib库
+       * [集成iOS sdk过程中搜索不到libz.dylib和libstdc++.dylib库](ji_cheng_ios_sdk_guo_cheng_zhong_sou_suo_bu_dao_li.md)
 
