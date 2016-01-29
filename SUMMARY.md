@@ -32,7 +32,6 @@
        * 新增用户
 * [常见术语解释](6release_note.md)
    * [性能指标](xing_neng_zhi_biao.md)
-   * 图表
 * [常见问题](releaseNote.md)
    * [Android](candroid.md)
        * [SDK 安装后提示错误信息：由于使用 JRE 运行 Eclipse 导致 OneAPM 无法正确加载](SDK 安装后提示错误信息：由于使用 JRE 运行 Eclipse 导致 OneAPM 无法正确加载.md)
