@@ -1,9 +1,51 @@
 # iOS Release Note
-如何更新最新的 iOS SDK ？ [请查看iOS SDK](https://oneapm.kf5.com/posts/view/44278)
+
+##iOS_SDK_V2.1.2 Release Note
+
+**发布时间**：2016.01.27
+
+**下载地址：**
+
+[iOS_2.1.2 精简版](https://download.oneapm.com/ios_agent/iOS_SDK_latest_beta_Xcode6.zip)
+
+XCode7 + 开启bit code:
+
+[iOS_2.1.2 精简版](https://download.oneapm.com/ios_agent/iOS_SDK_latest_beta_Xcode7.zip)
+
+**修复问题：**
+
+1.Bitcode打包改进
+
+2.修正探针导致APP旋转开关为打开状态
 
 
+##iOS_SDK V2.1.1 Relesse Note  
+**发布时间：2016.01.15**
 
-## OneAPM iOS smart SDK 2.0.1
+**下载链接：**
+XCode6及其以下或关闭bit code:
+
+[iOS最新精简版](https://download.oneapm.com/ios_agent/iOS_SDK_latest_beta_Xcode6.zip)
+
+XCode7 + 开启bit code:
+
+[iOS最新精简版](https://download.oneapm.com/ios_agent/iOS_SDK_latest_beta_Xcode7.zip)
+
+ 
+**特点：**
+
+1.交互数据（慢交互除外）：
+ 总览中展示View Loading，UIImage，DataBase，Json，NetWork,  WebView六种数据的执行时间等信息；
+     
+ 交互列表中展示页面（ViewController）的具体交互数据信息。
+ 
+2.WebView ：
+
+请求网络url性能相关信息(暂不支持JS Errors)；
+    慢加载资源耗时信息（目前有link、img、css、script几种类型，暂不支持ajax）。
+    
+3.崩溃轨迹:
+   崩溃发生前的交互行为路径信息，最大支持到19条；
 
 
 
