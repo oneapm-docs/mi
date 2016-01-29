@@ -4,7 +4,7 @@
 
 Android SDK 通过 Eclipse 插件方法安装完成，重启后出现 No providers installed 异常
 
-![](1-1419585913.jpg)
+![](20160129111513.png)
 
 ## 解决方案
 
