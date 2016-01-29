@@ -12,7 +12,7 @@ Android SDK 通过 Eclipse 插件方法安装完成，重启后出现 No provide
 
 **原因二**：若安装了其他第三方性能监控的 Eclipse 插件，请卸载其他第三方性能监控插件或者重新解压一份新的 Eclipse 重新安装 OneAPM 插件。
 
-**原因三**：使用了 sun JDK ，并且 `JAVA_HOME` 指向了这个 JDK ，但是 `path` 下的 "java" 命令不是这个 JDK 里面的 Java ，而是操作系统给你默认安装的 JRE 下的，如:
+**原因三**：使用了 Oracle JDK ，并且 `JAVA_HOME` 指向了这个 JDK ，但是 `path` 下的 "java" 命令不是这个 JDK 里面的 Java ，而是操作系统给你默认安装的 JRE 下的，如:
 
 `c:\Program Files\java\....`
 
