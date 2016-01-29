@@ -1,4 +1,11 @@
+# 系统
+
+* 活跃设备数：在选定时间段内，访问过的独立设备数量。
+App 版本统计：以 Version Code 为标识，监控 App 版本信息，提供该 App 活跃设备的统计数据。
+
+
 # 性能指标
+
 
 * 执行时间（总览）：Network-http传输时间,Database-数据库执行时间,View Loading-app的每个UI渲染时间,Images-app代码中的bitmap类的解析时间,Json：解析Json字符串时间。
 
