@@ -35,7 +35,7 @@
 启动代码示例：
 
 ```java
-BlueWare.withApplicationToken("You App Token")
+BlueWare.withApplicationToken("use app token created at step 1")
 .start(this.getApplication());
 ```
 
