@@ -8,4 +8,3 @@ OneAPM Android SDK 会在用户 Java 代码编译期间检测用户用了哪些�
 
 我们的 Agent 启动之后会自己启动一个自己的线程，等于说 SDK 试运行在和用户 App 隔离开的一个沙盒中。可能影响用户 App 性能的安卓系统接口，例如数据库操作中的 insert、update 等；JSON 解析中的 parse 等方法，页面加载中的 onCreate 等方法，图片加载中的 bitmapFactory 中的 decodeFile 方法。希望这个简单的说法能说明白，不明白的或者不到位的请联系 OneAPM 的技术支持。
 
-需要说明的是目前 OneAPM Eclipse 插件是不支持 JDK 1.8 的，使用 JDK 1.8 的用户可以通过下载安装 OneAPM SDK 来监控管理 App。
