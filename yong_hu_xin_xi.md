@@ -22,9 +22,10 @@
 
 用法示例：
 
->```[OneAPM setCustomInfo:@"18611421164"];```
+
 
 >```[OneAPM startWithApplicationToken:@"225D3C244ACE5E49F1CFA920EF94D8A489"];```
+>```[OneAPM setCustomInfo:@"18611421164"];```
 
 * Android 配置用户信息
 
