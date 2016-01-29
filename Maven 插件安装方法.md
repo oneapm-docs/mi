@@ -158,7 +158,7 @@ import com.blueware.agent.android.BlueWare;
 
 ```java
 BlueWare.withApplicationToken(
-"<generate app token by creating a name above>")
+"<use app token created at step 1>")
 .start(this.getApplication());
 ```
 
