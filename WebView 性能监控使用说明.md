@@ -41,7 +41,8 @@ super.shouldOverrideUrlLoading(view, url);
 
 ```java
 private class MyWebViewClient extends OneapmWebViewClient{
-    public void onPageFinished(WebView paramAnonymousWebView, String paramAnonymousString) {
+    public void onPageFinished(WebView paramAnonymousWebView,
+            String paramAnonymousString) {
         super.onPageFinished(paramAnonymousWebView,paramAnonymousString);
         Log.e("insert"," MyWebViewClient onPageFinished");
     }

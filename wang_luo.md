@@ -58,8 +58,10 @@ socketInstrumentation.close();
 
 ```
 SocketChannel socket = SocketChannel.open();
-SocketChannelInstrumentation socketChannelInstrumentation1 = new SocketChannelInstrumentation(socket);
-socketChannelInstrumentation1.connect(new InetSocketAddress("127.0.0.1", 12345));
+SocketChannelInstrumentation socketChannelInstrumentation1 = 
+    new SocketChannelInstrumentation(socket);
+socketChannelInstrumentation1.connect(
+    new InetSocketAddress("127.0.0.1", 12345));
 socketChannelInstrumentation1.read(readBuffer);
 socketChannelInstrumentation1.write(pendingData.get(0));
 
