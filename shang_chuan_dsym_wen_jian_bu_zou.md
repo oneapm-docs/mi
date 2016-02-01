@@ -8,7 +8,7 @@
 
 打开工程，选择Edit Scheme
 
-![图1](image2015122521039png)
+![图1](image2015122521039.png)
 
 将工程由Debug模式转为Release模式,然后点击Close关闭弹框。
 
