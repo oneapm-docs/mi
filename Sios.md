@@ -6,7 +6,7 @@ Agent 安装成功后，你可以随时重命名你的应用程序
 保存
 为你的应用命名后生成对应的 Token
 
-二. 下载并解压 [OneAPM iOS SDK （关闭 bitcode）](https://download.oneapm.com/ios_agent/iOS_SDK_latest_Xcode6.zip)，[OneAPM iOS SDK （开启 bitcode）](https://download.oneapm.com/ios_agent/iOS_SDK_latest_beta_Xcode7.zip)
+二. 下载并解压 [OneAPM iOS SDK （关闭 bitcode）](https://download.oneapm.com/ios_agent/iOS_SDK_latest_Xcode6.zip)，[OneAPM iOS SDK （开启 bitcode）](https://download.oneapm.com/ios_agent/iOS_SDK_latest_Xcode7.zip)
 
 
 
