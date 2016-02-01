@@ -6,7 +6,7 @@
 ![](屏幕快照 2016-02-01 18.26.54.png)
 
 点击“保存”
-为你的应用命名后生成对应的 Token
+为您的应用命名后生成对应的 Token
 
 二. 下载并解压 [OneAPM iOS SDK （关闭 bitcode）](https://download.oneapm.com/ios_agent/iOS_SDK_latest_Xcode6.zip)，[OneAPM iOS SDK （开启 bitcode）](https://download.oneapm.com/ios_agent/iOS_SDK_latest_Xcode7.zip)
 
