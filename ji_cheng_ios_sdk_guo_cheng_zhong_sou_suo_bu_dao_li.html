@@ -1,0 +1,1022 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>集成iOS sdk过程中搜索不到libz.dylib和libstdc++.dylib库 | Mobile Insight</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./sdkcheng_gong_bu_shu_hou_oneapm_jie_mian_wu_shu_ju.html" />
+    
+    
+    <link rel="prev" href="./beng_kui_shu_ju_tong_ji_bu_dao.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="5.2.6"
+        data-chapter-title="集成iOS sdk过程中搜索不到libz.dylib和libstdc++.dylib库"
+        data-filepath="ji_cheng_ios_sdk_guo_cheng_zhong_sou_suo_bu_dao_li.md"
+        data-basepath="."
+        data-revision="Tue Feb 02 2016 15:41:22 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="intro.html">
+            
+                
+                    <a href="./intro.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        快速入门
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="6release_note.html">
+            
+                
+                    <a href="./6release_note.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        版本更新
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="android.html">
+            
+                
+                    <a href="./android.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Android
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="ios.html">
+            
+                
+                    <a href="./ios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        iOS
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="shi_yong_ping_tai.html">
+            
+                
+                    <a href="./shi_yong_ping_tai.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        使用平台
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="Sandroid.html">
+            
+                
+                    <a href="./Sandroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Android
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="gradle_cha_jian_an_zhuang_fang_6cd5_md.html">
+            
+                
+                    <a href="./gradle_cha_jian_an_zhuang_fang_6cd5_md.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.1.</b>
+                        
+                        Gradle 插件安装方法
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="Eclipse 插件安装方法.html">
+            
+                
+                    <a href="./Eclipse 插件安装方法.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.2.</b>
+                        
+                        Eclipse 插件安装方法
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="Ant 安装方法.html">
+            
+                
+                    <a href="./Ant 安装方法.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.</b>
+                        
+                        Ant 安装方法
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="Maven 插件安装方法.html">
+            
+                
+                    <a href="./Maven 插件安装方法.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.4.</b>
+                        
+                        Maven 插件安装方法
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5" data-path="IntelliJ IDEA eclipse 项目安装方法.html">
+            
+                
+                    <a href="./IntelliJ IDEA eclipse 项目安装方法.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.5.</b>
+                        
+                        IntelliJ IDEA eclipse 项目安装方法
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6" data-path="204yi_shang_ban_ben_an_zhuang_fang_shi.html">
+            
+                
+                    <a href="./204yi_shang_ban_ben_an_zhuang_fang_shi.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.6.</b>
+                        
+                        2.0.4.*以上版本安装方式
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="Sios.html">
+            
+                
+                    <a href="./Sios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        iOS
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="4chang_jian_zhu_yu_jie_shi.html">
+            
+                
+                    <a href="./4chang_jian_zhu_yu_jie_shi.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        功能说明
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="Gying_yong.html">
+            
+                
+                    <a href="./Gying_yong.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        应用
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="jiao_hu.html">
+            
+                
+                    <a href="./jiao_hu.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.1.</b>
+                        
+                        交互
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="anr.html">
+            
+                
+                    <a href="./anr.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.2.</b>
+                        
+                        ANR
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="beng_kui.html">
+            
+                
+                    <a href="./beng_kui.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        崩溃
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="yong_hu_xin_xi.html">
+            
+                
+                    <a href="./yong_hu_xin_xi.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        用户信息
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="webview.html">
+            
+                
+                    <a href="./webview.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        WebView
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="wang_luo.html">
+            
+                
+                    <a href="./wang_luo.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                        网络
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="yun_ying.html">
+            
+                
+                    <a href="./yun_ying.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.</b>
+                        
+                        运营
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.6.1" >
+            
+            <span><b>4.6.1.</b> 用户分析</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="fen_xi.html">
+            
+                
+                    <a href="./fen_xi.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.7.</b>
+                        
+                        分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="she_zhi.html">
+            
+                
+                    <a href="./she_zhi.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.</b>
+                        
+                        设置
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.9" data-path="zi_ding_yi_yi_biao_pan.html">
+            
+                
+                    <a href="./zi_ding_yi_yi_biao_pan.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.9.</b>
+                        
+                        自定义仪表盘
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.10" data-path="anr_shu_ju_zhua_qu_ji_zhan_shi.html">
+            
+                
+                    <a href="./anr_shu_ju_zhua_qu_ji_zhan_shi.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.10.</b>
+                        
+                        ANR 数据抓取及展示
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.11" data-path="uixing_80fd-_qia_dun.html">
+            
+                
+                    <a href="./uixing_80fd-_qia_dun.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.11.</b>
+                        
+                        UI性能-卡顿
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.12" data-path="yong_hu_fen_xi.html">
+            
+                
+                    <a href="./yong_hu_fen_xi.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.12.</b>
+                        
+                        用户分析
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.12.1" >
+            
+            <span><b>4.12.1.</b> 新增用户</span>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="releaseNote.html">
+            
+                
+                    <a href="./releaseNote.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        常见问题
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="candroid.html">
+            
+                
+                    <a href="./candroid.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        Android
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="SDK 安装后提示错误信息：由于使用 JRE 运行 Eclipse 导致 OneAPM 无法正确加载.html">
+            
+                
+                    <a href="./SDK 安装后提示错误信息：由于使用 JRE 运行 Eclipse 导致 OneAPM 无法正确加载.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.1.</b>
+                        
+                        SDK 安装后提示错误信息：由于使用 JRE 运行 Eclipse 导致 OneAPM 无法正确加载
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="Eclipse 安装 SDK 提示后提示找不到 content.xml 文件.html">
+            
+                
+                    <a href="./Eclipse 安装 SDK 提示后提示找不到 content.xml 文件.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.2.</b>
+                        
+                        Eclipse 安装 SDK 提示后提示找不到 content.xml 文件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="追踪用户信息接口使用说明文档.html">
+            
+                
+                    <a href="./追踪用户信息接口使用说明文档.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.3.</b>
+                        
+                        追踪用户信息接口使用说明文档
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="Mac OS下 Android Studio 如何卸载探针？.html">
+            
+                
+                    <a href="./Mac OS下 Android Studio 如何卸载探针？.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.4.</b>
+                        
+                        Mac OS下 Android Studio 如何卸载探针？
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5" data-path="OneAPM兼容Cordova（PhoneGap）.html">
+            
+                
+                    <a href="./OneAPM兼容Cordova（PhoneGap）.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.5.</b>
+                        
+                        OneAPM兼容Cordova（PhoneGap）
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6" data-path="升级Android Agent 2.0.4后嵌入Token那行代码报错？.html">
+            
+                
+                    <a href="./升级Android Agent 2.0.4后嵌入Token那行代码报错？.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.6.</b>
+                        
+                        升级Android Agent 2.0.4后嵌入Token那行代码报错？
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.7" data-path="Eclipse 安装 SDK 提示“The chosen operation is not currently available”.html">
+            
+                
+                    <a href="./Eclipse 安装 SDK 提示“The chosen operation is not currently available”.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.7.</b>
+                        
+                        Eclipse 安装 SDK 提示“The chosen operation is not currently available”
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.8" data-path="集成了 OneAPM 探针后，Crash 功能界面无数据.html">
+            
+                
+                    <a href="./集成了 OneAPM 探针后，Crash 功能界面无数据.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.8.</b>
+                        
+                        集成了 OneAPM 探针后，Crash 功能界面无数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.9" data-path="SDK 安装后提示错误信息：No providers installed.html">
+            
+                
+                    <a href="./SDK 安装后提示错误信息：No providers installed.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.9.</b>
+                        
+                        SDK 安装后提示错误信息：No providers installed
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.10" data-path="SDK 成功部署后 OneAPM 界面无数据显示.html">
+            
+                
+                    <a href="./SDK 成功部署后 OneAPM 界面无数据显示.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.10.</b>
+                        
+                        SDK 成功部署后 OneAPM 界面无数据显示
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.11" data-path="Eclipse 插件安装过程中无法勾选 OneAPM 插件并提示: There are no categorized item.html">
+            
+                
+                    <a href="./Eclipse 插件安装过程中无法勾选 OneAPM 插件并提示: There are no categorized item.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.11.</b>
+                        
+                        Eclipse 插件安装过程中无法勾选 OneAPM 插件并提示: There are no categorized item
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.12" data-path="WebView 性能监控使用说明.html">
+            
+                
+                    <a href="./WebView 性能监控使用说明.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.12.</b>
+                        
+                        WebView 性能监控使用说明
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.13" data-path="安装Android探针后启动发生异常.html">
+            
+                
+                    <a href="./安装Android探针后启动发生异常.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.13.</b>
+                        
+                        安装 Android 探针后启动发生异常：finished with non-zero exit value 1解决办法
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.14" data-path="Eclipse完全卸载说明.html">
+            
+                
+                    <a href="./Eclipse完全卸载说明.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.14.</b>
+                        
+                        Eclipse完全卸载说明
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="Cios.html">
+            
+                
+                    <a href="./Cios.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        iOS
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="isdwebimage_zao_cheng_de_crash_wen_ti.html">
+            
+                
+                    <a href="./isdwebimage_zao_cheng_de_crash_wen_ti.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.1.</b>
+                        
+                        SDWebImage 造成的 crash 问题
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2" data-path="ixcode_ban_ben_di_yu_6__3__cpu_zhan_yong_da_dao_100.html">
+            
+                
+                    <a href="./ixcode_ban_ben_di_yu_6__3__cpu_zhan_yong_da_dao_100.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.2.</b>
+                        
+                        Xcode 版本低于6.3，CPU 占用达到100%
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.3" data-path="shang_chuan_dsym_wen_jian_bu_zou.html">
+            
+                
+                    <a href="./shang_chuan_dsym_wen_jian_bu_zou.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.3.</b>
+                        
+                        上传dSYM文件步骤
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.4" data-path="wei_shi_yao_yao_shang_chuan_dsym_wen_jian_ff1f.html">
+            
+                
+                    <a href="./wei_shi_yao_yao_shang_chuan_dsym_wen_jian_ff1f.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.4.</b>
+                        
+                        为什么要上传dSYM文件？
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.5" data-path="beng_kui_shu_ju_tong_ji_bu_dao.html">
+            
+                
+                    <a href="./beng_kui_shu_ju_tong_ji_bu_dao.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.5.</b>
+                        
+                        崩溃数据统计不到
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="5.2.6" data-path="ji_cheng_ios_sdk_guo_cheng_zhong_sou_suo_bu_dao_li.html">
+            
+                
+                    <a href="./ji_cheng_ios_sdk_guo_cheng_zhong_sou_suo_bu_dao_li.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.6.</b>
+                        
+                        集成iOS sdk过程中搜索不到libz.dylib和libstdc++.dylib库
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.7" data-path="sdkcheng_gong_bu_shu_hou_oneapm_jie_mian_wu_shu_ju.html">
+            
+                
+                    <a href="./sdkcheng_gong_bu_shu_hou_oneapm_jie_mian_wu_shu_ju.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.7.</b>
+                        
+                        SDK成功部署后OneAPM界面无数据显示
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >Mobile Insight</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="&#x96C6;&#x6210;ios-sdk&#x8FC7;&#x7A0B;&#x4E2D;&#x641C;&#x7D22;&#x4E0D;&#x5230;libzdylib&#x548C;libstdcdylib&#x5E93;">&#x96C6;&#x6210;iOS sdk&#x8FC7;&#x7A0B;&#x4E2D;&#x641C;&#x7D22;&#x4E0D;&#x5230;libz.dylib&#x548C;libstdc++.dylib&#x5E93;</h1>
+<p>iOS9&#x540E; &#x539F;&#x6765;&#x7684;dylib&#x540E;&#x7F00;&#x540D;&#x7684;&#x5E93;&#x5168;&#x90E8;&#x4FEE;&#x6539;&#x6210;&#x4E86;tbd,&#x56E0;&#x6B64; libz.dylib&#x76F8;&#x5F53;&#x4E8E;libz.tdb&#xFF0C;libstdc++.dylib &#x76F8;&#x5F53;&#x4E8E; libstdc++.tdb
+&#x5982;&#x679C;Link Binary With Libraries&#x4E2D;&#x6DFB;&#x52A0;&#x7684;&#x65F6;&#x5019; &#x627E;&#x4E0D;&#x5230;libz.dylib&#x548C;libstdc++.dylib&#x5E93;&#xFF0C;&#x76F4;&#x63A5;&#x641C;&#x7D22;&#x5BF9;&#x5E94;&#x7684;libz.tdb&#x548C;libstdc++.tdb&#x5373;&#x53EF;&#x3002;</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./beng_kui_shu_ju_tong_ji_bu_dao.html" class="navigation navigation-prev " aria-label="Previous page: 崩溃数据统计不到"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./sdkcheng_gong_bu_shu_hou_oneapm_jie_mian_wu_shu_ju.html" class="navigation navigation-next " aria-label="Next page: SDK成功部署后OneAPM界面无数据显示"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
