@@ -39,7 +39,7 @@ Xcode－“Products”下，右击XXX.app文件，选择“Show in Finder”，�
 
 步骤二：上传dSYM文件
 
-浏览器登录OneAPM－Mobile 页面，https://mobile.oneapm.com/mobile/app#/
+浏览器登录OneAPM－Mobile 页面，https://mi.oneapm.com/mobile/app#/
 
 按照如下操作：
 
