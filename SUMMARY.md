@@ -1,7 +1,7 @@
 # Summary
 
 * [快速入门](intro.md)
-* [版本更新](README.md)
+* [版本更新](6release_note.md)
    * [Android](android.md)
    * [iOS](ios.md)
 * [使用平台](shi_yong_ping_tai.md)
