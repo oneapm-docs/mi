@@ -31,7 +31,7 @@
    * [UI性能-卡顿](uixing_80fd-_qia_dun.md)
    * [用户分析](yong_hu_fen_xi.md)
        * 新增用户
-   * Ajax
+   * [Ajax](ajax.md)
    * Ajax
 * [常见问题](releaseNote.md)
    * [Android](candroid.md)
