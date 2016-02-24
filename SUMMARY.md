@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [快速入门](intro.md)
 * [版本更新](6release_note.md)
    * [Android](android.md)
@@ -30,8 +31,7 @@
    * [UI性能-卡顿](uixing_80fd-_qia_dun.md)
    * [用户分析](yong_hu_fen_xi.md)
        * 新增用户
-* [常见术语解释](6release_note.md)
-   * [常见术语](xing_neng_zhi_biao.md)
+   * Ajax
 * [常见问题](releaseNote.md)
    * [Android](candroid.md)
        * [SDK 安装后提示错误信息：由于使用 JRE 运行 Eclipse 导致 OneAPM 无法正确加载](SDK 安装后提示错误信息：由于使用 JRE 运行 Eclipse 导致 OneAPM 无法正确加载.md)
