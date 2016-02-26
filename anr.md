@@ -16,24 +16,24 @@ ANR，全称 Application Not Responding 或 The Application of Non Response，�
 
 OneAPM Mobile Insight 提供了 ANR 监控功能：
 
-![](ANR1.jpg)
+![ANR](1G.jpeg)
 
 ANR 统计包括：ANR 趋势信息以及 ANR 率。默认情况下展示 ANR 当天趋势信息，若鼠标悬停，则展示此时 ANR 率。
 
 **ANR 率 = ANR 影响用户/活跃用户数。**
 
-![](ANR2.jpg)
+![ANR](2G.jpeg)
 
 ANR 类型列表：按 APP 版本与 ANR 类型进行分类展示 ANR 问题，展示某类 ANR 所影响的用户数，以此表征问题严重程度。
 
-![](ANR3.png)
+![ANR](3G.jpeg)
 
 点击列表中问题描述，查看 ANR 信息详情：
 
 查看某版本上该类 ANR 问题分布设备与操作系统版本的比例，以及 ANR 发生趋势，帮助您从宏观上控制 ANR 影响范围。
 
-![](ANR4.png)
-![](anr5.png)
+![ANR](4G.jpeg)
+![ANR](5G.jpeg)
 
 ANR 线程等信息记录，帮助用户定位造成 ANR 的原因。
 
