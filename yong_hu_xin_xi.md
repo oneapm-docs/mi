@@ -8,7 +8,7 @@
 
 该模块提供查询单个用户发生的崩溃信息的入口。
 
-![](yonghuinfo.jpg)
+![yonghu](1H.jpeg)
 
 此外，通过设置用户识别信息，您可以自定义收集用户信息。
 我们提供的接口如下：
@@ -55,7 +55,7 @@ contextConfig.setExtra(extraData);
 
 如图，在输入框中键入用户信息，可以查询单个用户发生崩溃的信息。
 
-![](userInfoSearch1.jpg)
+![yonghu](2H.jpeg)
 
 查询结果包括：用户信息，用户使用的设备信息，APP版本以及崩溃开始时间。
 
@@ -64,10 +64,10 @@ contextConfig.setExtra(extraData);
 
 点击单条信息，可查看发生崩溃时用户所处的环境：
 
-![](userInfoSearch3.jpg)
+![yonghu](3H.jpeg)
 
 点击崩溃列表中的崩溃名，可跳转至崩溃详情页：
 
-![](impactuser2.png)
+![yonghu](4H.jpeg)
 
 *关键词：崩溃 影响用户 用户信息*
