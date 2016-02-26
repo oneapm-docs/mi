@@ -4,32 +4,31 @@
 
 首先在 Eclipse 中卸载 OneAPM 的 Agent 插件： Help -> About ADT -> Installation Details。
 
-![eclipse](eclipse1.png)
+![eclipse](1Y.jpeg)
 
-![eclipse](eclipse2.png)
+![eclipse](2Y.jpeg)
 
-![eclipse](eclipse3.png)
+![eclipse](3Y.jpeg)
 
-![eclipse](eclipse4.png)
+![eclipse](4Y.jpeg)
 
 打开Eclipse的安装目录：**\eclipse\plugins**
 
 删除下面的目录：
 
-![eclipse](eclipse5.png)
+![eclipse](5Y.jpeg)
 
 **\eclipse\features**
 
 删除下面的目录：
-
-![eclipse](eclipse6.png)
+![eclipse](6Y.jpeg)
 
 编辑 artifacts.xml 文件：
 
-![eclipse](eclipse7.png)
+![eclipse](7Y.jpeg)
 
 搜索“oneapm”关键字，删除所有包含“oneapm”的artifact节点元素。
 
-![eclipse](eclipse8.png)
+![eclipse](8Y.jpeg)
 
 重启Eclipse即可。
