@@ -55,7 +55,7 @@ contextConfig.setExtra(extraData);
 
 如图，在输入框中键入用户信息，可以查询单个用户发生崩溃的信息。
 
-![](userInfoSearch1.png)
+![](userInfoSearch1.jpg)
 
 查询结果包括：用户信息，用户使用的设备信息，APP版本以及崩溃开始时间。
 
