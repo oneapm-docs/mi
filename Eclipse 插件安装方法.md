@@ -7,7 +7,7 @@
 
 * 第二步：菜单 Help->Install New Software
 
-![Eclipse安装](eclipse11419579629.png)
+![Eclipse安装](1B.jpg)
 
 * 第三步：添加 OneAPM Android 的 Eclipse 插件源
 
@@ -19,11 +19,11 @@ Eclipse 4.4 及之后的版本，请使用：
 
 `https://download.oneapm.com/android_agent/eclipse_gt_4.4/`
 
-![Eclipse安装](eclipse21419579643.png)
+![Eclipse安装](2B.jpg)
 
 * 第四步：执行添加如下图
 
-![Eclipse安装](QQT20150729174216.jpg)
+![Eclipse安装](3B.jpg)
 
 **提示**：取消勾选 Contact all update during Install to find required software 会提高安装的速度；如果安装失败，重新勾选 Contact all update during Install to find required software，等待安装完成。
 
@@ -31,19 +31,19 @@ Eclipse 4.4 及之后的版本，请使用：
 
 * 第一步：新建或者在已有 Android Project 工程右键会出现如下：
  
-![Eclipse安装](eclipse41419579660.png)
+![Eclipse安装](4B.jpg)
 
 * 第二步：执行安装 OneAPM 插件会自动复制 OneAPM Agent 的 jar 包到工程的 libs 目录。安装成功如下：
 
-![Eclipse安装](eclipse51419579667.png)
+![Eclipse安装](5B.jpg)
 
 **注意**：查看 Android 工程的 libs 目录中，是否有 oneapm-android-agent.jar 文件，如果没有请刷新 libs 目录。
 
 ## 3. 配置 Agent
 
 * 第一步：在项目工程右键 Build Path Configure Build Path 将 oneapm-android-agent.jar 添加到系统的 Build Path 中；
+![Eclipse安装](6B.jpg)
 
-![Eclipse安装](eclipse61419579677.png)
 
 * 第二步：在应用的主 Activity 的 class 中，添加
 
