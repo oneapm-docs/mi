@@ -7,7 +7,7 @@
  >Error:Execution failed for task ':app:dexDevDebug'.
  >com.android.ide.common.process.ProcessException:org.gradle.process.internal.ExecException: Process 'command 'D:/Java/jdk1.7.0_79/bin/java.exe'' finished with non-zero exit value 1
 
-![](QQT20151124185528.png)
+![](1X.jpg)
 
 ## 版本信息
 
