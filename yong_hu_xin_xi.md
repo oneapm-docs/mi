@@ -64,7 +64,7 @@ contextConfig.setExtra(extraData);
 
 点击单条信息，可查看发生崩溃时用户所处的环境：
 
-![](userInfoSearch3.png)
+![](userInfoSearch3.jpg)
 
 点击崩溃列表中的崩溃名，可跳转至崩溃详情页：
 
