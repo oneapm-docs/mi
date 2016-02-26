@@ -5,8 +5,7 @@
 进入https://mi.oneapm.com/mobile/app/setup#/
 点击苹果图标，查看安装步骤，为您的应用取名。
 
-![](屏幕快照 2016-02-01 18.26.54.png)
-
+![安装](1E.jpg)
 点击“保存”
 为您的应用命名后生成对应的 Token
 
@@ -30,7 +29,7 @@ CoreData.framework
 libz.dylib（Xcode6及以前版本）／libz.tbd(Xcode7)
 libstdc++.dylib（Xcode6及以前版本）／libstdc++.tbd(Xcode7)
 ```
-![![](two.png)](one1.png)
+![安装](2E.jpg)
 
 **五. 启动 Agent**
 
