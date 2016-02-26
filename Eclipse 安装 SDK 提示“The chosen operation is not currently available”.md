@@ -12,8 +12,7 @@
 
 * 点击 Available Software Sites
 
-![](4-1433926325.jpg.png)
-
+![](1S.jpeg)
 * 查看安装的 SDK 版本是否和 Eclipse版本是否匹配，如果不匹配，请卸载掉，重新安装 SDK
 
 * 参考如下
