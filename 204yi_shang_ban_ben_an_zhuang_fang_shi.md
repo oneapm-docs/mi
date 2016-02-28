@@ -26,7 +26,7 @@ OneApmAgent.init(this)
 
 ***代表App的发布渠道，如下图所示:
 
-![agent](agent.png)
+![agent](agent.jpg)
 
 # 2、加统计分析功能
 
