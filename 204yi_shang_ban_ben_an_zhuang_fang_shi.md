@@ -44,7 +44,7 @@ OneApmAnalysis.onPause();
 
 如下图所示：
 
-![](eclipse-statistics-onpause.png)
+![](eclipse-statistics-onpause.jpg)
 
 在每个 Activity 的 onResume() 方法中添加代码:
 
@@ -54,6 +54,6 @@ OneApmAnalysis.onResume();
 
 如下图所示：
 
-![](eclipse-statistics-onresume.png)
+![](eclipse-statistics-onresume.jpg)
 
 **注意**：如果两个Activity是继承关系，只需要在父Activity添加即可，如果在两个Activity中同时添加，则会造成重复统计。
