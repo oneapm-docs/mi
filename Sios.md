@@ -19,7 +19,7 @@
 解压 SDK，并将「OneAPM.framework」文件夹从 Finder 中拖拽至 Xcode 项目中（悬停至导航窗口的项目中）。
 
 出现提示窗口时，选择「Copy items into destination...」和「Create folder references...」。
-![](https://static.oneapm.com/assets/mi/images/setup/mi-ios-1.png)
+![](mi-ios-1.jpg)
 
 ####(3) 在 Linker Settings 中添加以下 5 个 Libraries
 在项目导航窗口内点击你的 Project，并选中你的 App，然后选择「Build Phases」选项卡。
@@ -34,7 +34,7 @@
 - `libz.tbd` \ `libz.dylib (Xcode6及以前版本）`
 - `libstdc++.tbd` \ `libstdc++.dylib (Xcode6及以前版本）`
 
-![Libraries](https://static.oneapm.com/assets/mi/images/setup/mi-ios-2.png)
+![Libraries](mi-ios-2.jpg)
 
 ###2.2自动配置.framework形式开发包（使用CocoaPods）
 ####(1)在Podfile文件添加：
