@@ -23,6 +23,6 @@ Android SDK 通过 Eclipse 插件方法安装完成，重启后出现 OneAPM 启
 
 添加完之后 eclipse.ini 文件内容相对结构如下
 
-![](2-1419586046.png)
+![](12M.jpg)
 
 * 第四步：重启 Eclipse。
