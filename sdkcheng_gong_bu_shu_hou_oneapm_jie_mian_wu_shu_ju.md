@@ -17,5 +17,5 @@ App 每隔一分钟发送一次数据给 OneAPM。首次触发 App，性能数�
 每个 App 的 ApplicationId，对应唯一的 Token。首个使用 Token 的 App 被认为是合法用户，之后使用同一 Token 的 App 被视为非法请求，性能数据将被过滤。
 
 
-5.崩溃收集需要在真机 release，非xcode介入模式下运行才有效。
+5.
 崩溃收集需要在真机 release，非xcode介入模式下运行才有效，不然出现崩溃就会被Xcode截断无法正常上传数据。
