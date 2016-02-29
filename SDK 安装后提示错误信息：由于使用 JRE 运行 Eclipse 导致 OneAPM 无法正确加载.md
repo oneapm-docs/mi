@@ -4,7 +4,7 @@
 
 Android SDK 通过 Eclipse 插件方法安装完成，重启后出现 OneAPM 启动异常
 
-![](1-1419586032.png)
+![](11M.jpg)
 
 ## 解决方案
 
