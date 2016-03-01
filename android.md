@@ -9,15 +9,15 @@
 
 **优化功能：**
 
-1.修复在存在BaseActivity情况下，部分上层Activity不采集数据的Bug
+1.修复在存在BaseActivity情况下,部分上层Activity不采集数据的Bug
 
-2.修复以HttpClient发送网络请求时,当返回错误码5xx时，不采集HttpError的bug
+2.修复以HttpClient发送网络请求时,当返回错误码5xx时,不采集HttpError的bug
 
 3.修复不采集OkHttp中以NewCall方式发送网络请求的bug
 
 4.修复部分网络请求不抓取HttpHeader的bug
 
-5.更正CPU计算时，被除数为0的bug
+5.更正CPU计算时,被除数为0的bug
 
 
 ## OneAPM Android SDK 2.0.4.1(Beta)
