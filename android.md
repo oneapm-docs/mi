@@ -2,6 +2,13 @@
 
 如何更新最新的 Android SDK ？请查看 Android SDK 更新方法
 
+
+## OneAPM Android SDK 2.0.5
+
+**发布日期：**2016/03/01
+
+**优化功能：**
+
 ## OneAPM Android SDK 2.0.4.1(Beta)
 
 **发布日期：**2015/12/28
