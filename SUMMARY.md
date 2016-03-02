@@ -4,7 +4,7 @@
 * [快速入门](intro.md)
 * [版本更新](6release_note.md)
    * [Android](android.md)
-   * [iOS](ios.md)
+* [iOS](ios.md)
 * [使用平台](shi_yong_ping_tai.md)
    * [Android](Sandroid.md)
        * [Gradle 插件安装方法](gradle_cha_jian_an_zhuang_fang_6cd5_md.md)
