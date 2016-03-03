@@ -1,7 +1,8 @@
 #OneAPM_iOS_SDK Objective-C 安装文档（V2.2.0）
 ##1. 注册 OneAPM
 
-注册 OneAPM，登录账号后点击"Mobile Insight （移动应用性能管理）"。点击苹果图标进入下载安装页面。
+注册 OneAPM，登录账号后点击"Mobile Insight （移动应用性能管理）"，点击苹果图标进入下载安装页面。
+
 您也可以根据本文的安装步骤进行安装。
 
 ##2.配置.framework形式开发包
