@@ -6,6 +6,8 @@
 
 **下载地址：**
 
+Xcode6及以下或者bitcode关闭
+
 [iOS_2.1.2 精简版](https://download.oneapm.com/ios_agent/iOS_SDK_latest_beta_Xcode6.zip)
 
 XCode7 + 开启bit code:
@@ -23,6 +25,7 @@ XCode7 + 开启bit code:
 **发布时间：2016.01.15**
 
 **下载链接：**
+
 XCode6及其以下或关闭bit code:
 
 [iOS最新精简版](https://download.oneapm.com/ios_agent/iOS_SDK_latest_beta_Xcode6.zip)
