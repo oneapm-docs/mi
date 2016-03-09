@@ -16,7 +16,9 @@
 
    示例代码如下：          
           
-          BlueWare.withApplicationToken("50C964BEB879A561AEDF06951CA2C4E552").withFPSEnable(true).start(this.getApplication());
+          BlueWare.withApplicationToken("50C964BEB879A561AEDF06951CA2C4E552")
+                .withFPSEnable(true)
+                .start(this.getApplication());
 
 
 
