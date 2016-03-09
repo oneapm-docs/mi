@@ -2,6 +2,23 @@
 
 如何更新最新的 Android SDK ？请查看 Android SDK 更新方法
 
+## OneAPM Android SDK 2.0.7
+
+**发布日期：**2016/03/08
+
+**优化功能：**
+
+ 1.优化卡顿功能；
+ 
+ 2.增加探针端卡顿开关功能，默认卡顿功能关闭；
+         
+ 3.卡顿开启方法，启动探针处调用withFPSEnable(true)方法；
+
+   示例代码如下：          
+          
+          BlueWare.withApplicationToken("50C964BEB879A561AEDF06951CA2C4E552").withFPSEnable(true).start(this.getApplication());
+
+
 
 ## OneAPM Android SDK 2.0.6
 
