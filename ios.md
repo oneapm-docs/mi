@@ -1,4 +1,25 @@
 # iOS Release Note
+-------------
+
+
+##iOS_SDK_V2.1.3 Release Note
+**发布时间**：2016.01.27
+
+**下载地址：**
+
+Xcode6及以下或者bitcode关闭
+
+[iOS_2.1.3](https://download.oneapm.com/ios_agent/iOS_SDK_latest_beta_Xcode6.zip)
+
+XCode7 + 开启bit code:
+
+[iOS_2.1.3](https://download.oneapm.com/ios_agent/iOS_SDK_latest_beta_Xcode7.zip)
+
+**修复问题：**
+
+1.WebView代码逻辑的优化 
+
+
 
 ##iOS_SDK_V2.1.2 Release Note
 
@@ -10,7 +31,7 @@ Xcode6及以下或者bitcode关闭
 
 [iOS_2.1.2 精简版](https://download.oneapm.com/ios_agent/iOS_SDK_latest_beta_Xcode6.zip)
 
-XCode7 + 开启bit code:
+XCode7 + 开启bitcode:
 
 [iOS_2.1.2 精简版](https://download.oneapm.com/ios_agent/iOS_SDK_latest_beta_Xcode7.zip)
 
