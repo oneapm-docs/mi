@@ -27,7 +27,7 @@
 
 打开「Link Binary with Libraries」列表。
 
-点击添加：
+点击添加:
 
 - `SystemConfiguration.framework`
 - `CoreTelephony.framework`
