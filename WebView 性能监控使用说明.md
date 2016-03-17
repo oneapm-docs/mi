@@ -21,27 +21,52 @@ WebView 监控 JavaScript 文件下载链接:https://oneapm.kf5.com/posts/view/4
 
 代码示例：
 
-OneapmWebViewClient client = new 
-
-OneapmWebViewClient(webView){
+```
+OneapmWebViewClient client = new OneapmWebViewClient(webView){
 
 @Override
 public void onPageFinished(WebView view, String url) {
+
 super.onPageFinished(view, url);
+
 }
+
 @Override
 public boolean shouldOverrideUrlLoading(WebView view, String url) {
+
 return super.shouldOverrideUrlLoading(view, url);
 
 }
 };
-
- 
-若在此方法中有自己的实现，则需要添加：
-
-```java
-super.shouldOverrideUrlLoading(view, url);
 ```
+
+自定义WebViewClient示例代码：
+
+```
+public class MyWebViewClient extends OneapmWebViewClient{
+
+public MyWebViewClient(WebView wView) {
+// TODO Auto-generated constructor stub
+super(wView);
+}
+
+@Override
+public void onPageFinished(WebView view, String url) {
+
+super.onPageFinished(view, url);
+
+}
+
+@Override
+public boolean shouldOverrideUrlLoading(WebView view, String url) {
+
+return super.shouldOverrideUrlLoading(view, url);
+
+}
+} 
+```
+
+
 
 * 4、注意：若您的 WebView 已经调用了 setWebViewClient，就无须添加以上代码，免得代码被覆盖。
 
