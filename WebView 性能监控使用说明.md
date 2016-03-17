@@ -6,26 +6,37 @@ WebView 监控 JavaScript 文件下载链接:https://oneapm.kf5.com/posts/view/4
 
 * 1、eclipse安装方式：
 
-拷贝包含 oneapm_webview.js 文件的 oneapm 文件夹到 Android 项目工程的 assets 文件夹下，如果没有这个文件夹请手动添加。添加完成之后，项目结构如下图所示：
+拷贝包含 oneapm_hook.js、oneapm_performance.js、oneapm_protocol.js 文件的 oneapm 文件夹到 Android 项目工程的 assets 文件夹下，如果没有这个文件夹请手动添加。添加完成之后，项目结构如下图所示：
 
-![](1W.jpeg)
+![](M101.jpeg)
 * 2、Android Studio安装方式：
 
-拷贝包含 oneapm_webview.js 文件的 oneapm 文件夹到 app/src/main 下的 assets 文件夹下，如果没有这个文件夹请手动添加。添加完成之后，项目结构如下图所示：
+拷贝包含 oneapm_hook.js、oneapm_performance.js、oneapm_protocol.js 文件的 oneapm 文件夹到 app/src/main 下的 assets 文件夹下，如果没有这个文件夹请手动添加。添加完成之后，项目结构如下图所示：
 
-![](2W.jpeg)
+![](M102.jpeg)
 
-* 3、在自己的代码中找到需要监控的 WebView 对象，检查这个 WebView 对象是否设置了 WebViewClient ，如果没有，可以添加如下代码：
+* 3、在自己的代码中找到需要监控的 WebView 对象，新建一个OneapmWebViewClient 对象，代码如下。其中onPageFinished和shouldOverrideUrlLoading这两个代码必须要调用super方法。
 
-```java
-webview.setWebViewClient(new WebViewClient(){
-     @Override
-     public boolean shouldOverrideUrlLoading(WebView view, String url){
-         return super.shouldOverrideUrlLoading(view, url);
-     }
-});
-```
+说明：如果您自己有WebViewClient这个类，请保证这个类继承自OneapmWebViewClient 这个类，并调用相关的父类super方法。
 
+代码示例：
+
+OneapmWebViewClient client = new 
+
+OneapmWebViewClient(webView){
+
+@Override
+public void onPageFinished(WebView view, String url) {
+super.onPageFinished(view, url);
+}
+@Override
+public boolean shouldOverrideUrlLoading(WebView view, String url) {
+return super.shouldOverrideUrlLoading(view, url);
+
+}
+};
+
+ 
 若在此方法中有自己的实现，则需要添加：
 
 ```java
