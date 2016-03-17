@@ -71,6 +71,7 @@ return super.shouldOverrideUrlLoading(view, url);
 
 ```
 webView.setWebViewClient(client);
+
 ```
 
 * 
