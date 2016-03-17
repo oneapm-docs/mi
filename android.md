@@ -2,6 +2,19 @@
 
 如何更新最新的 Android SDK ？请查看 Android SDK 更新方法
 
+## OneAPM Android SDK 2.0.8
+**发布日期：**2016/03/08
+
+**优化功能：**
+
+1.优化WebView功能。
+
+2.修改WebView功能集成方法，修改js文件完善WebView功能。
+
+3.增加Ajax抓取功能。
+
+4.增加WebView开关功能。
+
 ## OneAPM Android SDK 2.0.7
 
 **发布日期：**2016/03/08
