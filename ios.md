@@ -21,7 +21,7 @@
 2.修正探针导致APP旋转开关为打开状态
 
 
-##OneAPM iOS_SDK V2.1.1 Relesse Note  
+##OneAPM iOS_SDK V2.1.1  
 **发布时间：2016.01.15**
 
 **下载链接：**
