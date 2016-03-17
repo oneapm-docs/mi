@@ -66,22 +66,14 @@ return super.shouldOverrideUrlLoading(view, url);
 } 
 ```
 
+调用webview的setWebViewClient把步骤1的对象设置进去。
 
 
-* 4、注意：若您的 WebView 已经调用了 setWebViewClient，就无须添加以上代码，免得代码被覆盖。
-
-* 5、测试，集成结束后，正常运行您的应用程序，打开包含 WebView 的页面，一段时间后就可登录 OneAPM 点击 WebView 查看是否出现 WebView 的性能数据。
-
-**备注**：Android 5.0 以上系统若 WebView 没数据，请参考如下代码，使自定义 WebViewClient 继承 OneapmWebViewClient：
-
-```java
-private class MyWebViewClient extends OneapmWebViewClient{
-    public void onPageFinished(WebView paramAnonymousWebView,
-            String paramAnonymousString) {
-        super.onPageFinished(paramAnonymousWebView,paramAnonymousString);
-        Log.e("insert"," MyWebViewClient onPageFinished");
-    }
-}
+```
+webView.setWebViewClient(client);
 ```
 
-**注意**：WebView监控功能 Android 4.2 及以上版本可用。
+* 
+4.测试，集成结束后，正常运行您的应用程序，打开包含 WebView 的页面，一段时间后就可登录 OneAPM 点击 WebView 查看是否出现 WebView 的性能数据。
+
+**注意**：WebView监控功能 Android 4.3 及以上版本可用。
