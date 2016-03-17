@@ -76,11 +76,9 @@ SDK 自身日志系统改善，统一输出格式，使用[OneAPM printLog:YES�
 [点击此处下载 iOS smart SDK](https://oneapm.kf5.com/attachments/download/324726/001564c3213991c1c71b682e6be5b26/)
 
 
-##OneAPM iOS SDK 1.1.3
+##2015-8-27 V1.1.3
 
-发布日期：2015/8/27
 
-[下载链接：iOS SDK 1.1.3](https://user.oneapm.com/account/agent/ios/download.do?version=1.1.3&_ga=1.171887072.1942864907.1444901230)
 
 **增加功能：**
 
