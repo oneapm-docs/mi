@@ -82,17 +82,14 @@ SDK 自身日志系统改善，统一输出格式，使用[OneAPM printLog:YES�
 
 **增加功能：**
 
-1. 
-支持监控通过 NSURLSession 发送的 HTTP 请求；
-1. 
-增加用户自定义信息功能；
-1. 
-性能优化；
+ 
+* 支持监控通过 NSURLSession 发送的 HTTP 请求；
+ 
+* 增加用户自定义信息功能；
+ 
+* 性能优化；
 
-**修复问题：**
-
-1. 
-解决 Agent 初始化工程中可能发送 crash 的问题。
+* 解决 Agent 初始化工程中可能发送 crash 的问题。
 
 **备注：**
 
@@ -106,26 +103,16 @@ SDK 自身日志系统改善，统一输出格式，使用[OneAPM printLog:YES�
 [OneAPM startWithApplicationToken:@"225D3C244ACE5E49F1CFA920EF94D8A489"];
 通过该接口设置用户识别信息，该信息会和 crash log 等数据关联。 
 ```
-##OneAPM iOS SDK 1.1.2
+##2015-08-04 V1.1.2
 
-发布日期：2015/8/4
 
-下载链接：[iOS SDK 1.1.2](https://user.oneapm.com/account/agent/ios/download.do?version=1.1.2)
+* 增加对 SDWebImage 的 HTTP 请求监控；
 
-**增加功能：**
+* 其它优化。
 
-1. 
-增加对 SDWebImage 的 HTTP 请求监控；
+* 解决使用 ASIHttpRequest 时偶发崩溃的问题；
 
-1. 
-其它优化。
-
-**修复问题：**
-
-1. 
-解决使用 ASIHttpRequest 时偶发崩溃的问题；
-1. 
-解决工程名字为中文时捕获的 crash log 包含乱码的问题；
+* 解决工程名字为中文时捕获的 crash log 包含乱码的问题；
 
 ## OneAPM iOS SDK 1.1.1
 
