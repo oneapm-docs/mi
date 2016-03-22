@@ -2,7 +2,7 @@
 
 当您按照 OneAPM Android SDK 安装方法完成安装后，只需执行以下两步就可以使用 WebView 监控功能。
 
-WebView 监控 JavaScript 文件下载链接:https://oneapm.kf5.com/posts/view/45662/
+WebView 监控 JavaScript 文件下载链接:https://oneapm.kf5.com/attachments/download/536787/00156f0bae267bf88e214738866cd58/
 
 1.eclipse安装方式：
 
