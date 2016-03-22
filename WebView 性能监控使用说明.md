@@ -72,6 +72,7 @@ return super.shouldOverrideUrlLoading(view, url);
 }
 } 
 ```
+***注意：super方法中需要传入WebView参数。***
 
 调用webview的setWebViewClient把步骤1的对象设置进去。
 
