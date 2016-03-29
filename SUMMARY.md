@@ -31,7 +31,6 @@
    * [ANR 数据抓取及展示](anr_shu_ju_zhua_qu_ji_zhan_shi.md)
    * [UI性能-卡顿](uixing_80fd-_qia_dun.md)
    * [用户分析](yong_hu_fen_xi.md)
-       * 新增用户
    * [Ajax](ajax.md)
 * [常见问题](releaseNote.md)
    * [Android](candroid.md)
