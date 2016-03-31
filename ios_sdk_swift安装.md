@@ -54,8 +54,8 @@ import <OneAPM/OneAPM.h>
 ![](A106.jpg)
 
 
-在文件 AppDelegate.swift中添加如下代码，并确保它在 application:didFinishLaunchingWithOptions 的第一行中。
-      OneAPM.startWithApplicationToken("<generate app token by creating a name above>")
+在文件 AppDelegate.swift中添加如下代码，并确保它在 ```application:didFinishLaunchingWithOptions``` 的第一行中。
+      ```OneAPM.startWithApplicationToken("<generate app token by creating a name above>")```
 
 ##4. 运行应用程序并使用
 Clean Project，并重新在模拟器或设备中启动应用程序，开始应用性能管理。
