@@ -37,7 +37,7 @@
 - `libz.tbd` \ `libz.dylib (Xcode6及以前版本）`
 - `libstdc++.tbd` \ `libstdc++.dylib (Xcode6及以前版本）`
 
-![Libraries](A101.jpg)
+![Libraries](A104.jpg)
 
 
 ##3.引入SDK
