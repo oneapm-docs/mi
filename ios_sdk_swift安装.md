@@ -22,7 +22,7 @@
 解压 SDK，并将「OneAPM.framework」文件夹从 Finder 中拖拽至 Xcode 项目中（悬停至导航窗口的项目中）。
 
 出现提示窗口时，选择「Copy items into destination...」和「Create folder references...」。
-![](mi-ios-1.jpg)
+![](A103.jpg)
 
 ####(3) 在 Linker Settings 中添加以下 5 个 Libraries
 在项目导航窗口内点击你的 Project，并选中你的 App，然后选择「Build Phases」选项卡。
