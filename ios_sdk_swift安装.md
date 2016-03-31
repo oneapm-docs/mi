@@ -49,17 +49,13 @@ import <OneAPM/OneAPM.h>
 `
 
 ![](A105.jpg)
+4.
+打开Swift工程的Build Settings设置界面，搜索Bridging Header，找到Objective－C Bridging Header设置项，添加上一步中创建的头文件，到此，在Swift工程中即可调用SDK接口。
+![](A106.jpg)
 
-在文件 main.m 中添加如下代码，
 
-```objective-c
-int main(int argc, char * argv[]) {
-@autoreleasepool {
-[OneAPM startWithApplicationToken:@"<use app token created at step 1>"];
-return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-}
-}
-```
+在文件 AppDelegate.swift中添加如下代码，并确保它在 application:didFinishLaunchingWithOptions 的第一行中。
+      OneAPM.startWithApplicationToken("<generate app token by creating a name above>")
 
 ##4. 运行应用程序并使用
 Clean Project，并重新在模拟器或设备中启动应用程序，开始应用性能管理。
