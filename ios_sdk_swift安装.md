@@ -1,6 +1,5 @@
-# OneAPM_iOS_SDK Swift 安装文档（V2.2.0.9）
+#OneAPM_iOS_SDK Objective-C 安装文档
 
-#OneAPM_iOS_SDK Objective-C 安装文档（V2.2.0.9）
 ##1. 注册 OneAPM
 
 注册 OneAPM，登录账号后点击"Mobile Insight （移动应用性能管理）"，点击苹果图标进入下载安装页面。
