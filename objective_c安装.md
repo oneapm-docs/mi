@@ -51,7 +51,7 @@ import <OneAPM/OneAPM.h>
 ```objective-c
 int main(int argc, char * argv[]) {
 @autoreleasepool {
-[OneAPM startWithApplicationToken:@"<use app token created at step 1>"];
+[OneAPM startWithApplicationToken: @ "<use app token created at step 1>"];
 return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
 }
 }
