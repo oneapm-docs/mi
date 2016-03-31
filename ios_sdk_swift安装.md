@@ -42,7 +42,7 @@
 
 ##3.引入SDK
 
-在项目文件 [app_name]-Prefix.pch（通常在文件夹「Support Files」中）中，引入 OneAPM 头文件：
+在Swift工程中新建.h文件，例如命名为ObjcBridgingHeader.h，在该文件中引入OneAPM头文件：  #import < OneAPM/OneAPM.h >
 
 `
 import <OneAPM/OneAPM.h>
@@ -73,4 +73,4 @@ a.点击“崩溃”进入崩溃信息展示界面;
 b.点击崩溃信息界面右上角“上传dSYM文件”按钮，选择APP版本号，选择要上传的dSYM文件"选取"，“保存”。
 
 
-1.swift工程引入SDK，在Swift工程中新建.h文件，例如命名为ObjcBridgingHeader.h，在该文件中引入OneAPM头文件：  #import < OneAPM/OneAPM.h >
+1.swift工程引入SDK，
