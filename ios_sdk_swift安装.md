@@ -47,7 +47,7 @@
 `
 import <OneAPM/OneAPM.h>
 `
-
+![](A105.jpg)
 
 在文件 main.m 中添加如下代码，
 
