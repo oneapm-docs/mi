@@ -17,3 +17,6 @@ Mobile Insight分为SaaS免费版、SaaS付费版、企业级。
 
 [相关权限及报价](http://www.oneapm.com/mi/price.html)
 
+##使用流程
+首先您需要有一个OneAPM的账号
+登陆账号之后选择Mi(Mobile Insight)移动应用性能管理
