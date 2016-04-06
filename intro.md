@@ -30,7 +30,7 @@ Mobile Insight分为SaaS免费版、SaaS付费版、企业级。
 ![](A107.jpg)
 3.添加应用
 
-在应用列表页面，点击<添加应用>按钮，进入下载安装页面。
+在应用列表页面，点击< [添加应用](https://mi.oneapm.com/mobile/app/setup#/) >按钮，进入下载安装页面。
 
 ![](A108.jpg)
 
