@@ -9,4 +9,6 @@ OneAPM 公司的 Mobile Insight 产品是专注于帮助开发者解决应用上
 
 **Mobile Insight 共支持两种平台:iOS、Android**
 
-Mobile Insight分为免费版、专业版、企业级
+Mobile Insight分为SaaS免费版、SaaS付费版、企业级
+
+
