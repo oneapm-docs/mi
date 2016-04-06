@@ -23,5 +23,6 @@ Mobile Insight分为SaaS免费版、SaaS付费版、企业级。
 
 登陆账号之后选择Mi(Mobile Insight)移动应用性能管理平台，进入应用列表管理界面。
 
+![](A107.jpg)
 
 注册 OneAPM，登录账号后点击"Mobile Insight （移动应用性能管理）"，点击苹果图标进入下载安装页面。
