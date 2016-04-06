@@ -38,6 +38,5 @@ Mobile Insight分为SaaS免费版、SaaS付费版、企业级。
 
 点击相应图标，选择您想要集成的Android/iOS SDK，根据步骤将SDK集成到您的项目中。
 
-安装步骤：
 
 5.查看数据
