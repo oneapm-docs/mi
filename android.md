@@ -2,6 +2,15 @@
 
 如何更新最新的 Android SDK ？请查看 Android SDK 更新方法
 
+
+## OneAPM Android SDK 2.0.4.3 
+**发布日期：**2016/03/08
+
+**优化功能：**
+
+1.优化WebView功能；
+
+2.优化卡顿功能，探针端增加卡顿开关，默认关闭；
 ## OneAPM Android SDK 2.0.8
 **发布日期：**2016/03/08
 
