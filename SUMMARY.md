@@ -32,7 +32,7 @@
    * [UI性能-卡顿](uixing_80fd-_qia_dun.md)
    * [用户分析](yong_hu_fen_xi.md)
    * [Ajax](ajax.md)
-   * 告警
+   * [告警](gao_jing.md)
 * [常见问题](releaseNote.md)
    * [Android](candroid.md)
        * [SDK 安装后提示错误信息：由于使用 JRE 运行 Eclipse 导致 OneAPM 无法正确加载](SDK 安装后提示错误信息：由于使用 JRE 运行 Eclipse 导致 OneAPM 无法正确加载.md)
