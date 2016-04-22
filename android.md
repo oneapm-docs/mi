@@ -14,7 +14,9 @@
 
 2.优化卡顿功能，探针端增加卡顿开关，默认关闭；
 
-3.
+3.卡顿开启方法，启动探针处调用withFPSEnable(true)方法；
+ 代码示例：          
+           OneApmAgent.init(this).setToken("1270ACC138539652FB6514FE44476CED70").setFPSEnable(true).start(); 
 
 ## OneAPM Android SDK 2.0.8
 **发布日期：**2016/03/17
