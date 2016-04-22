@@ -1,6 +1,6 @@
 # Android
-------
 
+---------------
 
 如何更新最新的 Android SDK ？请查看 Android SDK 更新方法
 
