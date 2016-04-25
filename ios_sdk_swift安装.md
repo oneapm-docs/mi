@@ -1,4 +1,4 @@
-#OneAPM_iOS_SDK Objective-C 安装文档
+#OneAPM_iOS_SDK Swift 安装文档
 
 ##1. 注册 OneAPM
 
