@@ -10,10 +10,8 @@
 首先我们将 plugin 文件夹整体拷贝到项目根目录, 具体如下图所示
 ![](A113.jpg)
 
-
-第一步：打开工程根目录下的 build.gradle 文件。
-    
-![Gradle安装](1A.jpg)
+打开工程根目录下的 build.gradle 文件。
+  ![](A114.jpg)
 
 第二步：在 dependencies 模块中加入代码。
 
