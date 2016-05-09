@@ -21,49 +21,64 @@ classpath fileTree(dir: 'plugin', include: ['*.jar'])
 
 ![](A115.jpg)
 
-4.引入 OneAPM
+引入 OneAPM
 
 将agent文件夹下的 oneapm-android-agent.jar 文件拷贝至项目libs目录下(如没有此目录请自行创建)
 ![](A116.jpg)
 打开主模块目录下的 build.gradle 文件。
+![](A117.jpg)
 
-![Gradle安装](3A.jpg)
-
-第二步：在 dependencies 模块中加入代码。
-
-```java
-compile fileTree(dir:'YourOneAPMPath/oneapm/agent',include:['*.jar'])
-```
-
-![Gradle安装](4A.jpg)
-
-第三步：在文件头部引入 OneAPM。
+在文件头部引入 OneAPM。
 
 ```java
 apply plugin: 'oneapm'
 ```
-
-![Gradle安装](5A.jpg)
+![](A118.jpg)
+如此即完成了OneAPM的引入。
 
 5.rebuild & clean 项目
 
 建议 rebuild & clean 项目，来确保 OneAPM 配置生效。
 
+如果 dependencies 没有如下的配置
+
+    ```compile fileTree(include: ['*.jar'], dir: 'libs')```
+
+请在 dependencies 中加入如下配置
+
+    ```compile files('libs/oneapm-android-agent.jar')```
+
+
 6.配置授权信息
 
-确保应用程序的 AndroidManifest.xml 配置文件中，引入了 INTERNET 和 ACCESS_NETWORK_STATE 两个请求授权：
+确保应用程序的 AndroidManifest.xml 配置文件中，引入了以下授权：
 
 ```xml
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<!--发送性能数据到服务器需要该权限--> 
+<uses-permission android:name="android.permission.INTERNET" /> 
+<!--发送性能数据到服务器需要该权限--> 
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+<!--sdk读取设备识别码需要该权限--> 
+<uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
+<!--【非必选】若想知道 Crash 的时候，后台有哪些任务运行，请引入该权限--> 
+<uses-permission android:name="android.permission.GET_TASKS" />
 ```
+注意：如果您的应用使用 proguard 混淆，请配置以下：
+```-keep class org.apache.http.impl.client.** 
+-dontwarn org.apache.commons.** 
+-keep class com.blueware.** { *; } 
+-dontwarn com.blueware.** 
+-keep class com.oneapm.** {*;} 
+-dontwarn com.oneapm.** 
+-keepattributes Exceptions, Signature, InnerClasses```
 
 若想使用 Crash 快照功能，请引入以下授权信息：
 
 ```xml
 <uses-permission android:name="android.permission.GET_TASKS" />
 ```
+注意：如果您希望保留行号信息，建议您在 proguard.cfg 中添加如下代码：
+```-keepattributes SourceFile, LineNumberTable```
 
 如果使用基站定位，请添加如下权限：
 
