@@ -4,11 +4,11 @@
 
 第一步：命名应用程序。
 
-
-
-2. 下载并解压 OneAPM SDK
+2. [下载并解压 OneAPM SDK](https://user.oneapm.com/account/agent/gradle/download.do?version=latest)
 
 3. 配置 Gradle
+首先我们将 plugin 文件夹整体拷贝到项目根目录, 具体如下图所示
+
 
 第一步：打开工程根目录下的 build.gradle 文件。
     
