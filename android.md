@@ -4,11 +4,11 @@
 
 如何更新最新的 Android SDK ？请查看 Android SDK 更新方法
 
-## OneAPM Android SDK 3.0
+## OneAPM Android SDK 3.0.0
 
 **发布日期：**2016/05/05
 
-**优化功能：**
+**优化点：**
 
 1.Android agent重构版本
 
