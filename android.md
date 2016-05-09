@@ -4,7 +4,19 @@
 
 如何更新最新的 Android SDK ？请查看 Android SDK 更新方法
 
-## OneAPM Android SDK 2.0.8
+## OneAPM Android SDK 3.0
+
+**发布日期：**2016/05/05
+
+**优化功能：**
+
+1.Android agent重构版本
+
+2.优化性能
+
+3.减小sdk体积
+
+4.插件化
 
 
 
