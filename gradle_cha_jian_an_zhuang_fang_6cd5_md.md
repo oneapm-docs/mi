@@ -19,7 +19,7 @@
 classpath fileTree(dir: 'YourOneAPMPath/oneapm/plugin', include: ['*.jar'])
 ```
 
-![Gradle安装](2A.jpg)
+![](A115.jpg)
 
 4.引入 OneAPM
 
