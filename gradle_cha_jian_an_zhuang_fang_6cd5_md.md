@@ -16,14 +16,16 @@
 第二步：在 dependencies 模块中加入代码。
 
 ```java
-classpath fileTree(dir: 'YourOneAPMPath/oneapm/plugin', include: ['*.jar'])
+classpath fileTree(dir: 'plugin', include: ['*.jar'])
 ```
 
 ![](A115.jpg)
 
 4.引入 OneAPM
 
-第一步：打开主模块目录下的 build.gradle 文件。
+将agent文件夹下的 oneapm-android-agent.jar 文件拷贝至项目libs目录下(如没有此目录请自行创建)
+![](A116.jpg)
+打开主模块目录下的 build.gradle 文件。
 
 ![Gradle安装](3A.jpg)
 
