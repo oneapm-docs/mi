@@ -7,8 +7,6 @@ OneAPM Android SDK支持在 Eclipse 集成开发环境中直接使用和部署�
 
 ### **1. 查看 Eclipse 版本号**
 
-
-
 OneAPM Eclipse 插件支持 Eclipse 3.8 及以上版本，请于安装前确认您使用的 Eclipse 版本号：
 
 Mac OS 下
