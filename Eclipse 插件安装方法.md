@@ -4,7 +4,10 @@
 
 OneAPM Android SDK支持在 Eclipse 集成开发环境中直接使用和部署。
 
-**1. 查看 Eclipse 版本号**
+
+### **1. 查看 Eclipse 版本号**
+
+
 
 OneAPM Eclipse 插件支持 Eclipse 3.8 及以上版本，请于安装前确认您使用的 Eclipse 版本号：
 
@@ -24,6 +27,24 @@ Windows 下
 (3)如果您的eclipse版本号在上图中没有出现, 可以点击上图中的底部 Eclipse 图标,点击后弹出对话框, 如下图所示:
 
 ![](A121.jpg)
+
+
+### **2.安装 OneAPM Eclipse 插件**
+
+（1）在 Eclipse 集成开发环境中点击“Help”菜单，选择“Install New Software...”
+
+![](A122.jpg)
+（2）点击Work with项右侧的“Add…”按钮来增加 OneAPM Eclipse 插件.
+![](A123.jpg)
+（3）设置插件的名称（比如OneAPM）以及URL地址:
+ Eclipse 插件需要 JAVA_HOME 环境变量，目前已支持最新 4.4 版本 Eclipse。
+ Eclipse 4.4 及之后版本请使用以下链接：
+ https://download.oneapm.com/android_agent/eclipse_gt_4.4/
+ 注：OneAPM Eclipse 4.4 插件需要 JDK 1.8。
+ Eclipse 4.4 之前版本请使用以下链接：
+ https://download.oneapm.com/android_agent/eclipse_lt_4.4/
+ 例如, Eclipse 4.4版本就可使用
+ https://download.oneapm.com/android_agent/eclipse_gt_4.4/
 
 * 第一步：打开 Eclipse
 
