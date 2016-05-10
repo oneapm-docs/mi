@@ -11,6 +11,7 @@
 ![](A113.jpg)
 
 打开工程根目录下的 build.gradle 文件。
+
   ![](A114.jpg)
 
 第二步：在 dependencies 模块中加入代码。
