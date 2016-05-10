@@ -122,6 +122,9 @@ OneApmAgent.init(this.getApplicationContext()).setContextConfig(config).setToken
 ### 7. 集成统计分析功能（可选）
 在每个 Activity 中导入 OneApmAnalysis 类
 
+``` 
+import com.oneapm.agent.android.module.analysis.AnalysisModule; 
+```
 
 7.启动 Agent
 
