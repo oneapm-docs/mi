@@ -53,7 +53,7 @@ Windows 下
  
  例如, Eclipse 4.4版本就可使用
  ```
- https://download.oneapm.com/android_agent/eclipse_gt_4.4/
+      https://download.oneapm.com/android_agent/eclipse_gt_4.4/
  ```
 ![](A124.jpg)
 在Work with选项中选中刚才添加的资料库，在下方列表中点击“Select All”选中所有的插件。点击“Next >”到下一步。
