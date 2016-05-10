@@ -214,7 +214,6 @@ OneAPM started with version :{VERSION}.
 
 ```
 
-
 ### 10. 静候 5 分钟，开启 OneAPM 之旅
 
 静候 5 分钟，等待应用程序向 OneAPM 发送应用程序性能数据，即可开始使用 OneAPM 应用性能管理。
