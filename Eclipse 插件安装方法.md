@@ -15,9 +15,11 @@ Windows 下
          
 (1)点击Help, 打开 “关于 Eclipse” 可查看当前版本号
 
+   ![](A119.jpg)
+   
 
-(2)如下图所示, 红色方框内的版本号信息.(如未见详细版本号,可点击进人“Eclipse Plugin”查看,详见步骤iii)
-
+(2)如下图所示, 红色方框内的版本号信息.(如未见详细版本号,可点击进人“Eclipse Plugin”查看,详见步骤)
+![](A120.jpg)
 * 第一步：打开 Eclipse
 
 * 第二步：菜单 Help->Install New Software
