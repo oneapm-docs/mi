@@ -67,6 +67,24 @@ Windows 下
 
 选择信任插件的签名证书，点击“OK”。
 ![](A128.jpg)
+点击“Yes”重启 Eclipse 来完成插件的安装。
+![](A129.jpg)
+插件安装完成后，右击需要监控的App，选择“安装OneAPM”
+![](A130.jpg)
+
+Eclipse 会自动添加“oneapm-android-agent.jar”包到libs目录下，若没有libs目录请新建一个。
+
+![](A131.jpg)
+
+注：Eclipse 插件目前只支持JDK（1.5 - 1.8）运行环境（不支持只有JRE的运行环境）
+Window 安装Eclipse插件时，请在没有空格和特殊字符的路径安装JDK
+Eclipse 插件需要使用JAVA_HOME环境变量，请检查环境变量,如果提示SDK 安装后提示错误信息：
+由于使用 JRE 运行 Eclipse 导致 OneAPM 无法正确加载，请参考链接： 
+
+```
+https://oneapm.kf5.com/posts/view/48050/
+```
+
 
 * 第一步：打开 Eclipse
 
