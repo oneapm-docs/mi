@@ -102,23 +102,6 @@ apply plugin: 'oneapm'
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 ```
 
-注意：如果您的应用使用 progurd 混淆，请配置以下：
-
-```
- -dontwarn org.apache.commons.**
- -keep class org.apache.http.impl.client.**
- -dontwarn org.apache.commons.**
- -keep class com.blueware.** { *; }
- -dontwarn com.blueware.**
- -keepattributes Exceptions, Signature, InnerClasses
-```
-
-注意：如果您希望保留行号信息，建议您在 proguard.cfg 中添加如下代码：
-
-```
-- keepattributes SourceFile ,LineNumberTable
-```
-
 7.启动 Agent
 
 在默认 Activity 中 import BlueWare 类：
