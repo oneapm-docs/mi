@@ -2,7 +2,7 @@
 
 1. 命名应用程序并获取 App token
 
-第一步：命名应用程序。
+  点击进入OneAPM Mobile Insight[集成安装界面](https://mi.oneapm.com/mobile/app/setup#/)，命名应用程序。
 
 2. [下载并解压 OneAPM SDK](https://user.oneapm.com/account/agent/gradle/download.do?version=latest)
 
