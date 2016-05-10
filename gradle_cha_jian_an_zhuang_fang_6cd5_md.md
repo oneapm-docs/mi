@@ -102,7 +102,8 @@ apply plugin: 'oneapm'
 ### 5. 用户信息配置（可选）
 顾名思义，就是说和每一个用户相关联的数据信息。例如崩溃的时候可以根据这个配置查询是哪一个用户发生了崩溃。如下：
 
-```// 附加数据 
+```
+// 附加数据 
 HashMap<String,String> extraData = new HashMap<String, String>(); 
 String userTel = "15801388723"; 
 extraData.put("tel", userTel); 
@@ -114,7 +115,12 @@ String searchValue = userTel;
 config.setSearchValue(searchValue); // 设置一个搜索值 
 config.setExtra(extraData); 
 
-OneApmAgent.init(this.getApplicationContext()).setContextConfig(config).setToken("---<YOU TOKEN HERE>---").start();```
+OneApmAgent.init(this.getApplicationContext()).setContextConfig(config).setToken("---<YOU TOKEN HERE>---").start(); 
+```
+
+
+### 7. 集成统计分析功能（可选）
+在每个 Activity 中导入 OneApmAnalysis 类
 
 
 7.启动 Agent
