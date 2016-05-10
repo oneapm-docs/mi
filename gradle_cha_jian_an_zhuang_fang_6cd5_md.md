@@ -93,8 +93,6 @@ apply plugin: 'oneapm'
 ```xml
 <uses-permission android:name="android.permission.GET_TASKS" />
 ```
-注意：如果您希望保留行号信息，建议您在 proguard.cfg 中添加如下代码：
-```-keepattributes SourceFile, LineNumberTable```
 
 如果使用基站定位，请添加如下权限：
 
