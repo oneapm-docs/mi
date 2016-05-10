@@ -27,7 +27,7 @@ Windows 下
 ![](A121.jpg)
 
 
-### **2.安装 OneAPM Eclipse 插件**
+### **3.安装 OneAPM Eclipse 插件**
 
 （1）在 Eclipse 集成开发环境中点击“Help”菜单，选择“Install New Software...”
 
