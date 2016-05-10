@@ -100,7 +100,7 @@ config.setExtra(extraData);
 
 OneApmAgent.init(this.getApplicationContext()).setContextConfig(config).setToken("---<YOU TOKEN HERE>---").start(); 
 ```
-### 7. 集成统计分析功能（可选）
+### 6. 集成统计分析功能（可选）
 在每个 Activity 中导入 OneApmAnalysis 类
 ``` 
 import com.oneapm.agent.android.module.analysis.AnalysisModule; 
@@ -135,14 +135,14 @@ protected void onPause() {
 <meta-data android:name ="BluewareChannel" android:value="YOUR CHANNEL" />
 ```
 注意：如果两个Activity是继承关系，只需要在父Activity添加即可，如果在两个Activity中同时添加，则会造成重复统计。
-### 8. 功能开关（可选）
+### 7. 功能开关（可选）
 如果您想使用帧率监控功能可以配置如下代码开启帧监控功能
 
 ```
 PerformanceConfiguration.getInstance().setEnableFps(true);
 ```
 
-### 9.启动Agent
+### 8.启动Agent
 
 在默认启动的 Activity 中 import OneApmAgent类
 ```
@@ -159,7 +159,7 @@ OneApmAgent.init(this.getApplicationContext()).setContextConfig(config).setToken
 
 ```
 
-###  10. 验证是否成功集成探针
+###  9. 验证是否成功集成探针
 在Logcat中过滤oneapm标签，查看是否有类似如下的日志输出即可(VERSION代表发布版本，因版本不同而不同)。
 
 ```
@@ -168,7 +168,7 @@ OneAPM started with version :{VERSION}.
 ```
 
 
-### 11. 静候 5 分钟，开启 OneAPM 之旅
+### 10. 静候 5 分钟，开启 OneAPM 之旅
 
 静候 5 分钟，等待应用程序向 OneAPM 发送应用程序性能数据，即可开始使用 OneAPM 应用性能管理。
 
