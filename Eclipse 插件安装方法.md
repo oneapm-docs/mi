@@ -57,6 +57,16 @@ Windows 下
  ```
  https://download.oneapm.com/android_agent/eclipse_gt_4.4/
  ```
+![](A124.jpg)
+在Work with选项中选中刚才添加的资料库，在下方列表中点击“Select All”选中所有的插件。点击“Next >”到下一步。
+![](A125.jpg)
+查看插件描述并点击“Next >”进入下一步。
+![](A126.jpg)
+查看许可协议，选择“I accept the terms of the license agreement”，点击“Finish>”进入下一步。
+![](A127.jpg)
+
+选择信任插件的签名证书，点击“OK”。
+
 
 * 第一步：打开 Eclipse
 
