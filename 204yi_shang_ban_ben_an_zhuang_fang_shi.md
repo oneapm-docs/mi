@@ -12,7 +12,6 @@ import com.oneapm.agent.android.OneApmAgent;
 
 在 onCreate() 方法中加入如下方法来初始化OneAPM（其中包含了根据应用程序名称而生成的授权编号）
 ```
-OneApmAgent.init(this.getApplicationContext()).setToken("---<YOU TOKEN HERE>---").start();java
 OneApmAgent.init(this)
 .setToken("<use app token created at step 1>")
 .start();
