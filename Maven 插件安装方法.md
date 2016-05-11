@@ -4,12 +4,13 @@
 
  点击进入OneAPM Mobile Insight[集成安装界面](https://mi.oneapm.com/mobile/app/setup#/)，命名应用程序。
 
-## 2. [下载并解压 OneAPM SDK](https://user.oneapm.com/account/agent/gradle/download.do?version=latest)
 
-## 3.配置Maven
+## 2.配置Maven
 下面配置使用到的PLUGIN_VERSION，需要替换成解压后相应的版本号。例如：下载版本为OneAPM_Android_Maven_2.0.1，需将PLUGIN_VERSION设置为2.0.1。
 
-* 1、下载 Maven 插件包解压，假设解压之后的路径是PATH_TO_ONEAPM_MAVEN_PATH 后续会用到；解压之后会有3个.jar文件一个 .pom 文件，这些文件下面的操作步骤会用到。
+下载maven插件包解压，假设解压之后的路径是PATH_TO_ONEAPM_MAVEN_PATH 后续会用到；解压之后会有3个.jar文件一个.pom文件，这些文件下面的操作步骤会用到。
+
+[OneAPM_Android_Maven_Plugin.zip](https://user.oneapm.com/account/agent/maven/download.do?version=latest)
 
 * 2、注册 Agent 和 plugin 下的 jar 包为本地 Maven 库
 
