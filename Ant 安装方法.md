@@ -14,17 +14,6 @@
 `export ANT_OPTS="-javaagent:/path/to/OneAPM_Android_Ant_{VERSION}/class.rewriter.jar"`
 
 **Windows 环境**
-
-* 方法一：“在我的电脑右键->属性->高级系统设置->环境变量->添加环境变量”，如下图: 
-
-![Ant安装](1C.jpg)
-
-其中 “/path/to/oneapm/”请用你实际存放 OneAPM 的 class.rewriter.jar 的路径替换。
-
-不要放在工程的 libs 目录中！
-
-* 方法二：在命令行中设置
-
 `set ANT_OPTS="-javaagent:/path/to/OneAPM_Android_Ant_{VERSION}/class.rewriter.jar"`
 
 **注意**：请勿将该环境变量 ANT_OPTS 永久设置到用户或系统环境变量里，否则会影响其他不需要进行嵌码的 Android 项目。建议在单次编译的命令行状态下临时设置该环境变量，或单独在需要嵌码项目的批处理编译脚本中设置该环境变量。
