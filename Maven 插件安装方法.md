@@ -6,8 +6,8 @@
 
 ## 2. [下载并解压 OneAPM SDK](https://user.oneapm.com/account/agent/gradle/download.do?version=latest)
 
-
-最新 Maven 插件版本号为2.0.3,以下称为 PLUGIN_VERSION。
+## 3.配置Maven
+下面配置使用到的PLUGIN_VERSION，需要替换成解压后相应的版本号。例如：下载版本为OneAPM_Android_Maven_2.0.1，需将PLUGIN_VERSION设置为2.0.1。
 
 * 1、下载 Maven 插件包解压，假设解压之后的路径是PATH_TO_ONEAPM_MAVEN_PATH 后续会用到；解压之后会有3个.jar文件一个 .pom 文件，这些文件下面的操作步骤会用到。
 
