@@ -25,7 +25,7 @@
 
 * 方法二：在命令行中设置
 
-`set ANT_OPTS="-javaagent:/path/to/oneapm/class.rewriter.jar"`
+`set ANT_OPTS="-javaagent:/path/to/OneAPM_Android_Ant_{VERSION}/class.rewriter.jar"`
 
 **注意**：请勿将该环境变量 ANT_OPTS 永久设置到用户或系统环境变量里，否则会影响其他不需要进行嵌码的 Android 项目。建议在单次编译的命令行状态下临时设置该环境变量，或单独在需要嵌码项目的批处理编译脚本中设置该环境变量。
 
