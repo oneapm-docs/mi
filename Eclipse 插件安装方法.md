@@ -1,14 +1,14 @@
 # Eclipse 插件安装方法
 
 ##1.命名你的应用程序 
+点击进入OneAPM Mobile Insight[集成安装界面](https://mi.oneapm.com/mobile/app/setup#/)，命名应用程序。
 
-
-### 1. 安装 SDK
+## 1. 安装 SDK
 
 OneAPM Android SDK支持在 Eclipse 集成开发环境中直接使用和部署。
 
 
-### **2. 查看 Eclipse 版本号**
+## **2. 查看 Eclipse 版本号**
 
 OneAPM Eclipse 插件支持 Eclipse 3.8 及以上版本，请于安装前确认您使用的 Eclipse 版本号：
 
@@ -100,7 +100,7 @@ https://oneapm.kf5.com/posts/view/48050/
 
 
 
-### 4. 配置授权信息
+## 4. 配置授权信息
 
 确保应用程序的 AndroidManifest.xml 配置文件中，引入了以下授权：
 
@@ -132,7 +132,7 @@ https://oneapm.kf5.com/posts/view/48050/
 -keepattributes SourceFile, LineNumberTable
 ```
 
-### 5. 用户信息配置（可选）
+## 5. 用户信息配置（可选）
 顾名思义，就是说和每一个用户相关联的数据信息。例如崩溃的时候可以根据这个配置查询是哪一个用户发生了崩溃。如下：
 
 ```
@@ -150,7 +150,7 @@ config.setExtra(extraData);
 
 OneApmAgent.init(this.getApplicationContext()).setContextConfig(config).setToken("---<YOU TOKEN HERE>---").start(); 
 ```
-### 6. 集成统计分析功能（可选）
+## 6. 集成统计分析功能（可选）
 在每个 Activity 中导入 OneApmAnalysis 类
 ``` 
 import com.oneapm.agent.android.module.analysis.AnalysisModule; 
@@ -185,14 +185,14 @@ protected void onPause() {
 <meta-data android:name ="BluewareChannel" android:value="YOUR CHANNEL" />
 ```
 注意：如果两个Activity是继承关系，只需要在父Activity添加即可，如果在两个Activity中同时添加，则会造成重复统计。
-### 7. 功能开关（可选）
+## 7. 功能开关（可选）
 如果您想使用帧率监控功能可以配置如下代码开启帧监控功能
 
 ```
 PerformanceConfiguration.getInstance().setEnableFps(true);
 ```
 
-### 8.启动Agent
+## 8.启动Agent
 
 在默认启动的 Activity 中 import OneApmAgent类
 ```
@@ -209,7 +209,7 @@ OneApmAgent.init(this.getApplicationContext()).setContextConfig(config).setToken
 
 ```
 
-###  9. 验证是否成功集成探针
+##  9. 验证是否成功集成探针
 在Logcat中过滤oneapm标签，查看是否有类似如下的日志输出即可(VERSION代表发布版本，因版本不同而不同)。
 
 ```
@@ -217,7 +217,7 @@ OneAPM started with version :{VERSION}.
 
 ```
 
-### 10. 静候 5 分钟，开启 OneAPM 之旅
+## 10. 静候 5 分钟，开启 OneAPM 之旅
 
 静候 5 分钟，等待应用程序向 OneAPM 发送应用程序性能数据，即可开始使用 OneAPM 应用性能管理。
 
