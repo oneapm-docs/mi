@@ -1,5 +1,7 @@
 # Maven 插件安装方法
 
+1.命名你的应用程序
+2.下载并解压
 最新 Maven 插件版本号为2.0.3,以下称为 PLUGIN_VERSION。
 
 * 1、下载 Maven 插件包解压，假设解压之后的路径是PATH_TO_ONEAPM_MAVEN_PATH 后续会用到；解压之后会有3个.jar文件一个 .pom 文件，这些文件下面的操作步骤会用到。
