@@ -22,7 +22,6 @@
 ### 2. 配置授权信息
 
 确保应用程序的 AndroidManifest.xml 配置文件中，引入了以下授权：
-
 ```
 <!--发送性能数据到服务器需要该权限--> 
 <uses-permission android:name="android.permission.INTERNET" /> 
