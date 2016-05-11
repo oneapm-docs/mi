@@ -41,11 +41,11 @@ apply plugin: 'oneapm'
 
 建议 rebuild & clean 项目，来确保 OneAPM 配置生效。
 
-如果 dependencies 没有如下的配置
+*如果 dependencies 没有如下的配置*
 
     ```compile fileTree(include: ['*.jar'], dir: 'libs')```
 
-请在 dependencies 中加入如下配置
+*请在 dependencies 中加入如下配置*
 
     ```compile files('libs/oneapm-android-agent.jar')```
 
@@ -65,7 +65,7 @@ apply plugin: 'oneapm'
 <!--【非必选】若想知道 Crash 的时候，后台有哪些任务运行，请引入该权限--> 
 <uses-permission android:name="android.permission.GET_TASKS" />
 ```
-注意：如果您的应用使用 proguard 混淆，请配置以下：
+*注意：如果您的应用使用 proguard 混淆，请配置以下：*
 
 ```
 -keep class org.apache.http.impl.client.** 
@@ -77,11 +77,13 @@ apply plugin: 'oneapm'
 -keepattributes Exceptions, Signature, InnerClasses
 ```
 
-注意：如果您希望保留行号信息，建议您在 proguard.cfg 中添加如下代码：
-
+*注意：如果您希望保留行号信息，建议您在 proguard.cfg 中添加如下代码：
+*
 ```
 -keepattributes SourceFile, LineNumberTable
 ```
+## 5.WebView性能监控（可选）
+如果你需要开启此功能，请参考 WebView 性能监控使用说明。
 
 ## 5. 用户信息配置（可选）
 顾名思义，就是说和每一个用户相关联的数据信息。例如崩溃的时候可以根据这个配置查询是哪一个用户发生了崩溃。如下：
