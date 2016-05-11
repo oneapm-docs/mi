@@ -98,7 +98,7 @@
 <executions>
 <execution>
 <goals>
-<goal>instrument</goal>
+<goal>insstrument</goal>
 </goals>
 </execution>
 </executions>
@@ -106,6 +106,9 @@
 </plugins>
 </build>
 ```
+## 3.WebView 性能监控（可选）
+
+如果你需要开启此功能，请参考 [WebView 性能监控使用说明](https://oneapm.kf5.com/posts/view/45662/?_ga=1.103647751.624652157.1461721958)。
 
 ## 4. 配置授权信息
 
