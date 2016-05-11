@@ -7,11 +7,11 @@
 
 * 第三步：添加 oneapm-android-agent.jar 到工程 libs 目录中，如果项目中没有 libs 目录，请创建一个新的 libs 目录
 
-* 第三步：设置 ANT_OPTS 环境变量
+* 第四步：设置 ANT_OPTS 环境变量
 
 **Mac OS / Linux 环境**
 
-`export ANT_OPTS="-javaagent:/path/to/oneapm/class.rewriter.jar"`
+`export ANT_OPTS="-javaagent:/path/to/OneAPM_Android_Ant_{VERSION}/class.rewriter.jar"`
 
 **Windows 环境**
 
