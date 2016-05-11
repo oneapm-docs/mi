@@ -6,8 +6,6 @@
 
 在移动应用 > 添加应用 > Android 页面，根据 Ant 方法下载 OneAPM Android Agent SDK，解压到某处。如下图：
 ![anzhaung](1D.jpg)
-
-
 ## 2、设置 Android 编译的代理路径
 
 * 选择 file->settings
