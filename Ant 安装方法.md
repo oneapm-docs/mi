@@ -50,7 +50,7 @@
 ```
 -keepattributes SourceFile, LineNumberTable
 ```
-### 5. 用户信息配置（可选）
+## 3. 用户信息配置（可选）
 顾名思义，就是说和每一个用户相关联的数据信息。例如崩溃的时候可以根据这个配置查询是哪一个用户发生了崩溃。如下：
 
 ```
@@ -68,7 +68,7 @@ config.setExtra(extraData);
 
 OneApmAgent.init(this.getApplicationContext()).setContextConfig(config).setToken("---<YOU TOKEN HERE>---").start(); 
 ```
-### 6. 集成统计分析功能（可选）
+## 4. 集成统计分析功能（可选）
 在每个 Activity 中导入 OneApmAnalysis 类
 ``` 
 import com.oneapm.agent.android.module.analysis.AnalysisModule; 
