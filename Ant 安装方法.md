@@ -50,7 +50,60 @@
 ```
 -keepattributes SourceFile, LineNumberTable
 ```
+### 5. 用户信息配置（可选）
+顾名思义，就是说和每一个用户相关联的数据信息。例如崩溃的时候可以根据这个配置查询是哪一个用户发生了崩溃。如下：
 
+```
+// 附加数据 
+HashMap<String,String> extraData = new HashMap<String, String>(); 
+String userTel = "15801388723"; 
+extraData.put("tel", userTel); 
+extraData.put("userId", "888"); 
+extraData.put("email", "88888@qq.com"); 
+
+ContextConfig config = new ContextConfig(); 
+String searchValue = userTel; 
+config.setSearchValue(searchValue); // 设置一个搜索值 
+config.setExtra(extraData); 
+
+OneApmAgent.init(this.getApplicationContext()).setContextConfig(config).setToken("---<YOU TOKEN HERE>---").start(); 
+```
+### 6. 集成统计分析功能（可选）
+在每个 Activity 中导入 OneApmAnalysis 类
+``` 
+import com.oneapm.agent.android.module.analysis.AnalysisModule; 
+```
+在每个 Activity 的 onResume() 方法中添加代码:
+```
+AnalysisModule.onResume();
+```
+如下示例代码：
+```
+@Override
+protected void onResume() {
+  super.onResume();
+  AnalysisModule.onResume();
+}
+```
+在每个 Activity 的 onPause() 方法中添加代码:
+```
+AnalysisModule.onPause();
+```
+如下示例代码：
+```
+@Override
+protected void onPause() {
+  super.onPause(); 
+  AnalysisModule.onPause();
+}
+```
+配置渠道信息:
+如果您的app需要增加渠道信息请在AndroidManifest.xml的Application标签内添加如下（请把YOU CHANNEL替换成您自己的发布渠道例如豌豆荚、360等）
+```
+<meta-data android:name ="BluewareChannel" android:value="YOUR CHANNEL" />
+```
+*注意：如果两个Activity是继承关系，只需要在父Activity添加即可，如果在两个Activity中同时添加，则会造成重复统计。
+*
 
 
 
