@@ -106,11 +106,8 @@
 </plugins>
 </build>
 ```
-## 3.WebView 性能监控（可选）
 
-如果你需要开启此功能，请参考 [WebView 性能监控使用说明](https://oneapm.kf5.com/posts/view/45662/?_ga=1.103647751.624652157.1461721958)。
-
-## 4. 配置授权信息
+## 3. 配置授权信息
 
 确保应用程序的 AndroidManifest.xml 配置文件中，引入了以下授权：
 
@@ -141,6 +138,10 @@
 ```
 -keepattributes SourceFile, LineNumberTable
 ```
+
+## 4.WebView 性能监控（可选）
+
+如果你需要开启此功能，请参考 [WebView 性能监控使用说明](https://oneapm.kf5.com/posts/view/45662/?_ga=1.103647751.624652157.1461721958)。
 
 ## 5. 用户信息配置（可选）
 顾名思义，就是说和每一个用户相关联的数据信息。例如崩溃的时候可以根据这个配置查询是哪一个用户发生了崩溃。如下：
