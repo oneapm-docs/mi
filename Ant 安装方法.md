@@ -105,10 +105,45 @@ protected void onPause() {
 *注意：如果两个Activity是继承关系，只需要在父Activity添加即可，如果在两个Activity中同时添加，则会造成重复统计。
 *
 
+### 5. 功能开关（可选）
+如果您想使用帧率监控功能可以配置如下代码开启帧监控功能
 
+```
+PerformanceConfiguration.getInstance().setEnableFps(true);
+```
 
+### 6.启动Agent
 
-静候 5 分钟后，若无应用程序相关性能数据展现，或安装过程中出现问题：请联系 OneAPM 客服人员：
+在默认启动的 Activity 中 import OneApmAgent类
+```
+import com.oneapm.agent.android;
+```
+在App的第一个Activity的 onCreate() 方法中加入如下调用代码来初始化 OneAPM（其中包含了在步骤 2 中根据应用程序名称而生成的授权编号）
+```
+OneApmAgent.init(this.getApplicationContext()).setToken("---<YOU TOKEN HERE>---").start();
+```
+或如果设置了用户信息（第5步），初始化代码如下（config是类似第5步中的用户信息配置）
+
+```
+OneApmAgent.init(this.getApplicationContext()).setContextConfig(config).setToken("---<YOU TOKEN HERE>---").start();
+
+```
+
+###  7. 验证是否成功集成探针
+在Logcat中过滤oneapm标签，查看是否有类似如下的日志输出即可(VERSION代表发布版本，因版本不同而不同)。
+
+```
+OneAPM started with version :{VERSION}.
+
+```
+
+### 8. 静候 5 分钟，开启 OneAPM 之旅
+
+静候 5 分钟，等待应用程序向 OneAPM 发送应用程序性能数据，即可开始使用 OneAPM 应用性能管理。
+
+若应用程序无数据展现，或安装过程中有任何问题:
+
+您可以采取以下方式与我们取得联系：
 
 * 技术咨询热线： 400-622-3101
 
