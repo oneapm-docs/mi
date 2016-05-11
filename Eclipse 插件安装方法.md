@@ -95,8 +95,6 @@ Eclipse 插件需要使用JAVA_HOME环境变量，请检查环境变量,如果�
 https://oneapm.kf5.com/posts/view/48050/
 ```
 
-
-
 ## 4. 配置授权信息
 
 确保应用程序的 AndroidManifest.xml 配置文件中，引入了以下授权：
