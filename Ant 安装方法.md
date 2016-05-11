@@ -148,6 +148,7 @@ OneAPM started with version :{VERSION}.
 * 技术咨询热线： 400-622-3101
 
 * 销售咨询热线： 400-659-1230
-* 
 
+* OneAPM MI技术交流3群：471152223
+* 
 * OneAPM 客服邮箱：support@oneapm.com
