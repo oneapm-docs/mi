@@ -5,8 +5,9 @@
 
   点击进入OneAPM Mobile Insight[集成安装界面](https://mi.oneapm.com/mobile/app/setup#/)，命名应用程序。
 
-## 2. [下载并解压 OneAPM SDK](https://user.oneapm.com/account/agent/gradle/download.do?version=latest)
+## 2. 下载并解压PneAPM SDK
 
+     ** [OneAPM_Android_Agent.zip](https://user.oneapm.com/account/agent/gradle/download.do?version=latest)**
 ## 3. 配置 Gradle
 首先我们将 plugin 文件夹整体拷贝到项目根目录, 具体如下图所示
 ![](A113.jpg)
