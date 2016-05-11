@@ -3,10 +3,8 @@
 ##1.命名你的应用程序 
 点击进入OneAPM Mobile Insight[集成安装界面](https://mi.oneapm.com/mobile/app/setup#/)，命名应用程序。
 
-## 1. 安装 SDK
 
 OneAPM Android SDK支持在 Eclipse 集成开发环境中直接使用和部署。
-
 
 ## **2. 查看 Eclipse 版本号**
 
