@@ -12,7 +12,7 @@
 
 [OneAPM_Android_Maven_Plugin.zip](https://user.oneapm.com/account/agent/maven/download.do?version=latest)
 
-* 2、注册 Agent 和 plugin 下的 jar 包为本地 Maven 库
+* 1、注册解压后文件夹中的jar包为本地maven库
 
 **注册 oneapm-android-agent.jar**
 
