@@ -150,7 +150,7 @@ PerformanceConfiguration.getInstance().setEnableFps(true);
 
 在默认启动的 Activity 中 import OneApmAgent类
 ```
-import com.oneapm.agent.android;
+import com.oneapm.agent.android.OneApmAgent;
 ```
 在App的第一个Activity的 onCreate() 方法中加入如下调用代码来初始化 OneAPM（其中包含了在步骤 2 中根据应用程序名称而生成的授权编号）
 ```
