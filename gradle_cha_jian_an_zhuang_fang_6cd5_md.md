@@ -146,7 +146,7 @@ protected void onPause() {
 PerformanceConfiguration.getInstance().setEnableFps(true);
 ```
 
-## 8.启动Agent
+## 9.启动Agent
 
 在默认启动的 Activity 中 import OneApmAgent类
 ```
@@ -162,7 +162,6 @@ OneApmAgent.init(this.getApplicationContext()).setToken("---<YOU TOKEN HERE>---"
 OneApmAgent.init(this.getApplicationContext()).setContextConfig(config).setToken("---<YOU TOKEN HERE>---").start();
 
 ```
-
 ## 10. 验证是否成功集成探针
 在Logcat中过滤oneapm标签，查看是否有类似如下的日志输出即可(VERSION代表发布版本，因版本不同而不同)。
 
@@ -170,8 +169,6 @@ OneApmAgent.init(this.getApplicationContext()).setContextConfig(config).setToken
 OneAPM started with version :{VERSION}.
 
 ```
-
-
 ## 11. 静候 5 分钟，开启 OneAPM 之旅
 
 静候 5 分钟，等待应用程序向 OneAPM 发送应用程序性能数据，即可开始使用 OneAPM 应用性能管理。
