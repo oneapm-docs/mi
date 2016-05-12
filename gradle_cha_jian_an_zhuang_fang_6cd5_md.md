@@ -146,6 +146,9 @@ protected void onPause() {
 PerformanceConfiguration.getInstance().setEnableFps(true);
 ```
 
+AgentHealthConfiguration.getInstance().setHost("www.oneapm.com:9080").setUseSSL(false);
+		PerformanceConfiguration.getInstance().setCrashHost("www.oneapm.com:9080").setEnableCrash(true).setHost("www.oneapm.com:9080").setUseSSL(false);
+
 ## 9.启动Agent
 
 在默认启动的 Activity 中 import OneApmAgent类
