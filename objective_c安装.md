@@ -8,8 +8,9 @@
 
 ##2.配置.framework形式开发包
 
+2.1 手动配置.framework形式开发包
 
-####(1)下载并解压 OneAPM iOS SDK
+####(2)下载并解压 OneAPM iOS SDK
 
 下载最新版本的 iOS SDK:在[安装步骤页](https://mobile.oneapm.com/mobile/app/setup#/)选择应用类别，再在“命名你的应用程序”输入项目名称，点击提交，记下随后出现的 Token。 
 
