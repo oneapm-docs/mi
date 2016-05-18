@@ -51,6 +51,7 @@
 ![](A105.jpg)
 
 打开Swift工程的Build Settings设置界面，搜索Bridging Header，找到Objective－C Bridging Header设置项，添加上一步中创建的头文件，到此，在Swift工程中即可调用SDK接口。
+
 ![](A106.jpg)
 
 
