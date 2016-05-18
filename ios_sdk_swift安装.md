@@ -54,7 +54,6 @@
 
 ![](A106.jpg)
 
-
 在文件 AppDelegate.swift中添加如下代码，并确保它在 ```application:didFinishLaunchingWithOptions``` 的第一行中。
      
      ```[OneAPM startWithApplicationToken: @ "<use app token created at step 1>"];```
