@@ -8,9 +8,23 @@
 
 ##2.配置.framework形式开发包
 
+
+2.2自动配置.framework形式开发包（使用CocoaPods）
+
+(1)在Podfile文件添加：
+
+pod 'OneAPM' '2.2.0'
+(2)在Podfile所在的文件夹下输入命令：
+
+$ Pod install
+(3)安装好后就可以打开xcworkspace文件，在你的项目中使用OneAPM_iOS_SDK了
+
+$ open App.xcworkspace
+
+
 2.1 手动配置.framework形式开发包
 
-####(2)下载并解压 OneAPM iOS SDK
+####(1)下载并解压 OneAPM iOS SDK
 
 下载最新版本的 iOS SDK:在[安装步骤页](https://mobile.oneapm.com/mobile/app/setup#/)选择应用类别，再在“命名你的应用程序”输入项目名称，点击提交，记下随后出现的 Token。 
 
