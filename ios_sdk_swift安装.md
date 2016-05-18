@@ -37,10 +37,7 @@
 - `libstdc++.tbd` \ `libstdc++.dylib (Xcode6及以前版本）`
 
 ![Libraries](A104.jpg)
-
-
 ##3.引入SDK
-
 
 在Swift工程中新建.h文件，例如命名为ObjcBridgingHeader.h，在该文件中引入OneAPM头文件：  #import < OneAPM/OneAPM.h >
 
