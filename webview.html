@@ -51,7 +51,7 @@
         data-chapter-title="WebView"
         data-filepath="webview.md"
         data-basepath="."
-        data-revision="Wed Mar 09 2016 17:53:47 GMT+0800 (CST)"
+        data-revision="Tue Jun 14 2016 18:30:13 GMT+0800 (CST)"
         data-innerlanguage="">
     
 
@@ -253,21 +253,6 @@
             
         </li>
     
-        <li class="chapter " data-level="3.1.6" data-path="204yi_shang_ban_ben_an_zhuang_fang_shi.html">
-            
-                
-                    <a href="./204yi_shang_ban_ben_an_zhuang_fang_shi.html">
-                
-                        <i class="fa fa-check"></i>
-                        
-                            <b>3.1.6.</b>
-                        
-                        2.0.4.*以上版本安装方式
-                    </a>
-            
-            
-        </li>
-    
 
             </ul>
             
@@ -285,6 +270,27 @@
                         iOS
                     </a>
             
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" data-path="objective_c安装.html">
+            
+                
+                    <a href="./objective_c安装.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.1.</b>
+                        
+                        iOS_SDK Objective-C 安装流程
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
             
         </li>
     
@@ -523,19 +529,6 @@
                     </a>
             
             
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="4.12.1" >
-            
-            <span><b>4.12.1.</b> 新增用户</span>
-            
-            
-        </li>
-    
-
-            </ul>
-            
         </li>
     
         <li class="chapter " data-level="4.13" data-path="ajax.html">
@@ -548,6 +541,21 @@
                             <b>4.13.</b>
                         
                         Ajax
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.14" data-path="gao_jing.html">
+            
+                
+                    <a href="./gao_jing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.14.</b>
+                        
+                        告警
                     </a>
             
             
@@ -926,6 +934,36 @@
             
         </li>
     
+        <li class="chapter " data-level="5.2.8" data-path="ruo_you_yu_wang_luo_qing_kuang_ff0c_dui_shu_ju_sho.html">
+            
+                
+                    <a href="./ruo_you_yu_wang_luo_qing_kuang_ff0c_dui_shu_ju_sho.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.8.</b>
+                        
+                        若由于网络情况，对数据收集失败，等网络情况恢复后，还能收集到吗？
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.9" data-path="bu_tong_ying_yong_ke_yi_shi_yong_tong_yi_token_zhi.html">
+            
+                
+                    <a href="./bu_tong_ying_yong_ke_yi_shi_yong_tong_yi_token_zhi.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.9.</b>
+                        
+                        不同应用可以使用同一Token值吗？
+                    </a>
+            
+            
+        </li>
+    
 
             </ul>
             
@@ -970,6 +1008,7 @@
                     <section class="normal" id="section-">
                     
                         <h1 id="webview">WebView</h1>
+<h3 id="&#x5907;&#x6CE8;&#xFF1A;301&#x4EE5;&#x4E0A;&#x7248;&#x672C;&#x91C7;&#x7528;&#x81EA;&#x52A8;&#x63D2;&#x7801;&#x76D1;&#x6D4B;webview&#x6570;&#x636E;&#xFF0C;&#x7528;&#x6237;&#x65E0;&#x9700;&#x8FDB;&#x884C;&#x914D;&#x7F6E;&#x3002;&#x6B64;&#x6587;&#x6863;&#x9002;&#x7528;&#x4E8E;300&#x53CA;&#x4EE5;&#x4E0B;&#x7248;&#x672C;&#x4F7F;&#x7528;&#x3002;">&#x5907;&#x6CE8;&#xFF1A;3.0.1&#x4EE5;&#x4E0A;&#x7248;&#x672C;&#x91C7;&#x7528;&#x81EA;&#x52A8;&#x63D2;&#x7801;&#x76D1;&#x6D4B;WebView&#x6570;&#x636E;&#xFF0C;&#x7528;&#x6237;&#x65E0;&#x9700;&#x8FDB;&#x884C;&#x914D;&#x7F6E;&#x3002;&#x6B64;&#x6587;&#x6863;&#x9002;&#x7528;&#x4E8E;3.0.0&#x53CA;&#x4EE5;&#x4E0B;&#x7248;&#x672C;&#x4F7F;&#x7528;&#x3002;</h3>
 <p>WebView &#x754C;&#x9762;&#x7528;&#x4E8E;&#x76D1;&#x63A7;&#x79FB;&#x52A8;&#x5E94;&#x7528;&#x4E2D; WebView &#x9875;&#x53CA;WebView&#x4E2D;&#x7684;&#x8BF7;&#x6C42;&#x7684;&#x6027;&#x80FD;&#x72B6;&#x51B5;&#xFF0C;&#x5305;&#x542B;&#x5176;&#x52A0;&#x8F7D;&#x65F6;&#x95F4;&#x3001;&#x6267;&#x884C;&#x65F6;&#x95F4;&#x3001;&#x6267;&#x884C;&#x6B21;&#x6570;&#x3001;JS&#x9519;&#x8BEF;&#x7B49;&#x3002;
 <img src="1I.jpeg" alt=""></p>
 <p>&#x5982;&#x56FE;&#xFF0C;&#x5DE6;&#x4FA7;&#x5217;&#x8868;&#x6309;&#x7167; WebView &#x6240;&#x5728;&#x7684; Activity &#x8FDB;&#x884C;&#x5F52;&#x7C7B;&#xFF0C;&#x4ECE;&#x5E73;&#x5747;&#x6267;&#x884C;&#x65F6;&#x95F4;&#x3001;&#x603B;&#x6267;&#x884C;&#x65F6;&#x95F4;&#x3001;&#x6267;&#x884C;&#x6B21;&#x6570;&#x4E09;&#x4E2A;&#x89D2;&#x5EA6;&#x8FDB;&#x884C;&#x5C55;&#x793A;&#x3002;
