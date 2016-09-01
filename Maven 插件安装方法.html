@@ -51,7 +51,7 @@
         data-chapter-title="Maven 插件安装方法"
         data-filepath="Maven 插件安装方法.md"
         data-basepath="."
-        data-revision="Fri Aug 05 2016 14:54:52 GMT+0800 (CST)"
+        data-revision="Thu Sep 01 2016 18:57:07 GMT+0800 (CST)"
         data-innerlanguage="">
     
 
@@ -1130,8 +1130,9 @@ ContextConfig config = <span class="hljs-keyword">new</span> ContextConfig();
 String searchValue = userTel; 
 config.setSearchValue(searchValue); <span class="hljs-comment">// &#x8BBE;&#x7F6E;&#x4E00;&#x4E2A;&#x641C;&#x7D22;&#x503C; </span>
 config.setExtra(extraData); 
+OneApmAgent.setContextConfig&#xFF08;config&#xFF09;&#xFF1B;
 
-OneApmAgent.init(<span class="hljs-keyword">this</span>.getApplicationContext()).setContextConfig(config).setToken(<span class="hljs-string">&quot;---&lt;YOU TOKEN HERE&gt;---&quot;</span>).start();
+OneApmAgent.init(<span class="hljs-keyword">this</span>.getApplicationContext()).setToken(<span class="hljs-string">&quot;---&lt;YOU TOKEN HERE&gt;---&quot;</span>).start();
 </code></pre>
 <h2 id="6-&#x96C6;&#x6210;&#x7EDF;&#x8BA1;&#x5206;&#x6790;&#x529F;&#x80FD;&#xFF08;&#x53EF;&#x9009;&#xFF09;">6. &#x96C6;&#x6210;&#x7EDF;&#x8BA1;&#x5206;&#x6790;&#x529F;&#x80FD;&#xFF08;&#x53EF;&#x9009;&#xFF09;</h2>
 <p>&#x5728;&#x6BCF;&#x4E2A; Activity &#x4E2D;&#x5BFC;&#x5165; OneApmAnalysis &#x7C7B;</p>
