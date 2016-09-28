@@ -51,7 +51,7 @@
         data-chapter-title="Eclipse 插件安装方法"
         data-filepath="Eclipse 插件安装方法.md"
         data-basepath="."
-        data-revision="Tue Sep 13 2016 11:51:34 GMT+0800 (CST)"
+        data-revision="Wed Sep 28 2016 18:07:48 GMT+0800 (CST)"
         data-innerlanguage="">
     
 
@@ -1075,45 +1075,29 @@
 </code></pre><p>&#x6CE8;&#x610F;&#xFF1A;&#x5982;&#x679C;&#x60A8;&#x5E0C;&#x671B;&#x4FDD;&#x7559;&#x884C;&#x53F7;&#x4FE1;&#x606F;&#xFF0C;&#x5EFA;&#x8BAE;&#x60A8;&#x5728; proguard.cfg &#x4E2D;&#x6DFB;&#x52A0;&#x5982;&#x4E0B;&#x4EE3;&#x7801;&#xFF1A;</p>
 <pre><code>-keepattributes SourceFile, LineNumberTable
 </code></pre><h2 id="5webview&#x6027;&#x80FD;&#x76D1;&#x63A7;&#xFF08;&#x53EF;&#x9009;&#xFF09;">5.WebView&#x6027;&#x80FD;&#x76D1;&#x63A7;&#xFF08;&#x53EF;&#x9009;&#xFF09;</h2>
-<p>&#x5982;&#x679C;&#x4F60;&#x9700;&#x8981;&#x5F00;&#x542F;&#x6B64;&#x529F;&#x80FD;&#xFF0C;&#x8BF7;&#x53C2;&#x8003; <a href="https://oneapm.kf5.com/posts/view/45662/?_ga=1.179193379.624652157.1461721958" target="_blank">Webview&#x6027;&#x80FD;&#x76D1;&#x63A7;&#x8BF4;&#x660E;</a> &#x3002;</p>
+<p>&#x5982;&#x679C;&#x4F60;&#x9700;&#x8981;&#x5F00;&#x542F;&#x6B64;&#x529F;&#x80FD;&#xFF0C;&#x8BF7;&#x786E;&#x4FDD;&#x60A8;&#x7684;webview&#x6709;&#x4E00;&#x4E2A;webviewclient&#x5BF9;&#x8C61;&#xFF0C;&#x7B80;&#x5355;&#x7684;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-java">webView.setWebViewClient(<span class="hljs-keyword">new</span> WebViewClient(){});
+</code></pre>
 <h2 id="6-&#x7528;&#x6237;&#x4FE1;&#x606F;&#x914D;&#x7F6E;&#xFF08;&#x53EF;&#x9009;&#xFF09;">6. &#x7528;&#x6237;&#x4FE1;&#x606F;&#x914D;&#x7F6E;&#xFF08;&#x53EF;&#x9009;&#xFF09;</h2>
 <p>&#x987E;&#x540D;&#x601D;&#x4E49;&#xFF0C;&#x5C31;&#x662F;&#x8BF4;&#x548C;&#x6BCF;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x76F8;&#x5173;&#x8054;&#x7684;&#x6570;&#x636E;&#x4FE1;&#x606F;&#x3002;&#x4F8B;&#x5982;&#x5D29;&#x6E83;&#x7684;&#x65F6;&#x5019;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x8FD9;&#x4E2A;&#x914D;&#x7F6E;&#x67E5;&#x8BE2;&#x662F;&#x54EA;&#x4E00;&#x4E2A;&#x7528;&#x6237;&#x53D1;&#x751F;&#x4E86;&#x5D29;&#x6E83;&#x3002;&#x5982;&#x4E0B;&#xFF1A;</p>
-<pre><code>// &#x9644;&#x52A0;&#x6570;&#x636E; 
-HashMap&lt;String,String&gt; extraData = new HashMap&lt;String, String&gt;(); 
-String userTel = &quot;15801388723&quot;; 
-extraData.put(&quot;tel&quot;, userTel); 
-extraData.put(&quot;userId&quot;, &quot;888&quot;); 
-extraData.put(&quot;email&quot;, &quot;88888@qq.com&quot;); 
+<pre><code class="lang-java"><span class="hljs-comment">// &#x9644;&#x52A0;&#x6570;&#x636E; </span>
+HashMap&lt;String,String&gt; extraData = <span class="hljs-keyword">new</span> HashMap&lt;String, String&gt;(); 
+String userTel = <span class="hljs-string">&quot;15801388723&quot;</span>; 
+extraData.put(<span class="hljs-string">&quot;tel&quot;</span>, userTel); 
+extraData.put(<span class="hljs-string">&quot;userId&quot;</span>, <span class="hljs-string">&quot;888&quot;</span>); 
+extraData.put(<span class="hljs-string">&quot;email&quot;</span>, <span class="hljs-string">&quot;88888@qq.com&quot;</span>); 
 
-ContextConfig config = new ContextConfig(); 
+ContextConfig config = <span class="hljs-keyword">new</span> ContextConfig(); 
 String searchValue = userTel; 
-config.setSearchValue(searchValue); // &#x8BBE;&#x7F6E;&#x4E00;&#x4E2A;&#x641C;&#x7D22;&#x503C; 
+config.setSearchValue(searchValue); <span class="hljs-comment">// &#x8BBE;&#x7F6E;&#x4E00;&#x4E2A;&#x641C;&#x7D22;&#x503C; </span>
 config.setExtra(extraData); 
 OneApmAgent.setContextConfig&#xFF08;config&#xFF09;&#xFF1B;
-</code></pre><h2 id="7-&#x96C6;&#x6210;&#x7EDF;&#x8BA1;&#x5206;&#x6790;&#x529F;&#x80FD;&#xFF08;&#x53EF;&#x9009;&#xFF09;">7. &#x96C6;&#x6210;&#x7EDF;&#x8BA1;&#x5206;&#x6790;&#x529F;&#x80FD;&#xFF08;&#x53EF;&#x9009;&#xFF09;</h2>
-<p>&#x5728;&#x6BCF;&#x4E2A; Activity &#x4E2D;&#x5BFC;&#x5165; OneApmAnalysis &#x7C7B;</p>
-<pre><code>import com.oneapm.agent.android.module.analysis.AnalysisModule;
-</code></pre><p>&#x5728;&#x6BCF;&#x4E2A; Activity &#x7684; onResume() &#x65B9;&#x6CD5;&#x4E2D;&#x6DFB;&#x52A0;&#x4EE3;&#x7801;:</p>
-<pre><code>AnalysisModule.onResume();
-</code></pre><p>&#x5982;&#x4E0B;&#x793A;&#x4F8B;&#x4EE3;&#x7801;&#xFF1A;</p>
-<pre><code>@Override
-protected void onResume() {
-  super.onResume();
-  AnalysisModule.onResume();
-}
-</code></pre><p>&#x5728;&#x6BCF;&#x4E2A; Activity &#x7684; onPause() &#x65B9;&#x6CD5;&#x4E2D;&#x6DFB;&#x52A0;&#x4EE3;&#x7801;:</p>
-<pre><code>AnalysisModule.onPause();
-</code></pre><p>&#x5982;&#x4E0B;&#x793A;&#x4F8B;&#x4EE3;&#x7801;&#xFF1A;</p>
-<pre><code>@Override
-protected void onPause() {
-  super.onPause(); 
-  AnalysisModule.onPause();
-}
-</code></pre><p><strong>&#x5907;&#x6CE8;&#xFF1A;&#x82E5;&#x4E0D;&#x6DFB;&#x52A0;&#x4EE5;&#x4E0A;&#x4EE3;&#x7801;&#xFF0C;&#x4F1A;&#x5BFC;&#x81F4;&#x5B89;&#x5353;ANR&#x7387;&#x65E0;&#x6CD5;&#x8BA1;&#x7B97;&#x3002;</strong></p>
+</code></pre>
+<h2 id="7-&#x914D;&#x7F6E;&#x6E20;&#x9053;&#x4FE1;&#x606F;&#xFF08;&#x53EF;&#x9009;&#xFF09;">7. &#x914D;&#x7F6E;&#x6E20;&#x9053;&#x4FE1;&#x606F;&#xFF08;&#x53EF;&#x9009;&#xFF09;</h2>
 <p>&#x914D;&#x7F6E;&#x6E20;&#x9053;&#x4FE1;&#x606F;:
 &#x5982;&#x679C;&#x60A8;&#x7684;app&#x9700;&#x8981;&#x589E;&#x52A0;&#x6E20;&#x9053;&#x4FE1;&#x606F;&#x8BF7;&#x5728;AndroidManifest.xml&#x7684;Application&#x6807;&#x7B7E;&#x5185;&#x6DFB;&#x52A0;&#x5982;&#x4E0B;&#xFF08;&#x8BF7;&#x628A;YOU CHANNEL&#x66FF;&#x6362;&#x6210;&#x60A8;&#x81EA;&#x5DF1;&#x7684;&#x53D1;&#x5E03;&#x6E20;&#x9053;&#x4F8B;&#x5982;&#x8C4C;&#x8C46;&#x835A;&#x3001;360&#x7B49;&#xFF09;</p>
-<pre><code>&lt;meta-data android:name =&quot;BluewareChannel&quot; android:value=&quot;YOUR CHANNEL&quot; /&gt;
-</code></pre><p>&#x6CE8;&#x610F;&#xFF1A;&#x5982;&#x679C;&#x4E24;&#x4E2A;Activity&#x662F;&#x7EE7;&#x627F;&#x5173;&#x7CFB;&#xFF0C;&#x53EA;&#x9700;&#x8981;&#x5728;&#x7236;Activity&#x6DFB;&#x52A0;&#x5373;&#x53EF;&#xFF0C;&#x5982;&#x679C;&#x5728;&#x4E24;&#x4E2A;Activity&#x4E2D;&#x540C;&#x65F6;&#x6DFB;&#x52A0;&#xFF0C;&#x5219;&#x4F1A;&#x9020;&#x6210;&#x91CD;&#x590D;&#x7EDF;&#x8BA1;&#x3002;</p>
+<pre><code class="lang-java">&lt;meta-data android:name =<span class="hljs-string">&quot;BluewareChannel&quot;</span> android:value=<span class="hljs-string">&quot;YOUR CHANNEL&quot;</span> /&gt;
+</code></pre>
 <h2 id="8-&#x529F;&#x80FD;&#x5F00;&#x5173;&#xFF08;&#x53EF;&#x9009;&#xFF09;">8. &#x529F;&#x80FD;&#x5F00;&#x5173;&#xFF08;&#x53EF;&#x9009;&#xFF09;</h2>
 <p>&#x5982;&#x679C;&#x60A8;&#x60F3;&#x4F7F;&#x7528;&#x5E27;&#x7387;&#x76D1;&#x63A7;&#x529F;&#x80FD;&#x53EF;&#x4EE5;&#x914D;&#x7F6E;&#x5982;&#x4E0B;&#x4EE3;&#x7801;&#x5F00;&#x542F;&#x5E27;&#x76D1;&#x63A7;&#x529F;&#x80FD;</p>
 <pre><code>PerformanceConfiguration.getInstance().setEnableFps(true);
